@@ -1977,28 +1977,6 @@
     
 
 
-    <!-- http://www.bioassayontology.org/bao#BAO_0000178 -->
-
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000178">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0090004"/>
-                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000015"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0090004"/>
-                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                        <owl:onClass rdf:resource="http://www.bioassayontology.org/bao#BAO_0000015"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://www.bioassayontology.org/bao#BAO_0000179 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000179">
@@ -7049,14 +7027,7 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
-                        <owl:allValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000219"/>
-                                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000366"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:allValuesFrom>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
@@ -8288,6 +8259,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010008 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002808"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002854"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002004"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0002172"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -9518,6 +9516,36 @@
     
 
 
+    <!-- http://www.bioassayontology.org/bao#BAO_0010072 -->
+
+    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010072">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002808"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002854"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000366"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0010079 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010079">
@@ -9651,6 +9679,41 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010084 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010084">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao/bao_vocabulary_format.owl#BAO_0020015"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002808"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0002172"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0007646"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002854"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002854"/>
@@ -9670,6 +9733,44 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010085 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010085">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0001257"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002808"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000211"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0030013"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002004"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0007646"/>
+                                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao/external/BAO_CLO_import.owl#CLO_0037460"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -9707,6 +9808,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010086 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010086">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002808"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002854"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002004"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0007646"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -9744,6 +9872,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010087 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010087">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002808"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002854"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002004"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao/external/BAO_CLO_import.owl#CLO_0037461"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -9775,6 +9930,37 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010088 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010088">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002808"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002854"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095009"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002202"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002004"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao/external/BAO_CLO_import.owl#CLO_0007331"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -9800,6 +9986,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010089 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010089">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0002808"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002854"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002004"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao/external/BAO_CLO_import.owl#CLO_0037460"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -15320,6 +15533,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010206 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010206">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010205"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000207"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0040042"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0001257"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000211"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0030033"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -15387,6 +15627,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010207 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010207">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010205"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000207"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0040042"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0001257"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000211"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao/bao_vocabulary_biology.owl#BAO_0030064"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -15448,6 +15715,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010208 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010208">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010205"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000207"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0040042"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0001257"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000211"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0030013"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -15545,6 +15839,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010209 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010209">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010205"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000207"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0040042"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0001257"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000211"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0030031"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -15612,6 +15933,33 @@
     <!-- http://www.bioassayontology.org/bao#BAO_0010210 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0010210">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0010205"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000207"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0040042"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0001257"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000211"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0030032"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
@@ -16468,6 +16816,31 @@
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0190008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao/bao_vocabulary_assay.owl#BAO_0013057 -->
+
+    <rdf:Description rdf:about="http://www.bioassayontology.org/bao/bao_vocabulary_assay.owl#BAO_0013057">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000208"/>
+                        <owl:someValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0001257"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0000205"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0000219"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0095013"/>
+                        <owl:allValuesFrom rdf:resource="http://www.bioassayontology.org/bao#BAO_0020008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
