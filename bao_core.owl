@@ -1,32 +1,34 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.bioassayontology.org/bao/bao_core.owl#"
      xml:base="http://www.bioassayontology.org/bao/bao_core.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:efo="http://www.ebi.ac.uk/efo/"
-     xmlns:cellline="http://www.ebi.ac.uk/cellline/"
-     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:bao="http://www.bioassayontology.org/bao#"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bao1="http://www.bioassayontology.org/bao/"
+     xmlns:bao2="http://www.bioassayontology.org/bao/#"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cellline="http://www.ebi.ac.uk/cellline/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://www.bioassayontology.org/bao/bao_core.owl">
         <owl:versionIRI rdf:resource="http://www.bioassayontology.org/bao/bao_core.owl"/>
         <owl:imports rdf:resource="http://www.bioassayontology.org/bao/bao_module_vocabularies.owl"/>
-        <rdfs:label>BioAssay Ontology</rdfs:label>
         <dc:date>March 9, 2023</dc:date>
-        <owl:versionInfo>2.7.5</owl:versionInfo>
-        <rdfs:label>BAO</rdfs:label>
-        <rdfs:comment>Created by:
-Hande Küçük McGinty, Janice Kranz, Joseph Ostrow, Alex Clark, Yu Lin, Saminda Abeyruwan, Uma Vempati, Kunie Sakurai, Vance Lemmon, Ubbo Visser, John Turner, Nicolette Ross, Joan Glenny-Pescov, Jiaming Hu, Caty Chung, Stephan Schurer*</rdfs:comment>
         <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <rdfs:comment>Contact:
 Stephan Schurer
 schurer at med dot miami dot edu</rdfs:comment>
+        <rdfs:comment>Created by:
+Hande Küçük McGinty, Janice Kranz, Joseph Ostrow, Alex Clark, Yu Lin, Saminda Abeyruwan, Uma Vempati, Kunie Sakurai, Vance Lemmon, Ubbo Visser, John Turner, Nicolette Ross, Joan Glenny-Pescov, Jiaming Hu, Caty Chung, Stephan Schurer*</rdfs:comment>
+        <rdfs:label>BAO</rdfs:label>
+        <rdfs:label>BioAssay Ontology</rdfs:label>
+        <owl:versionInfo>2.7.5</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -97,6 +99,84 @@ schurer at med dot miami dot edu</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51121"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001396"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002182"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000190"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000200"/>
     
 
 
@@ -178,6 +258,22 @@ schurer at med dot miami dot edu</rdfs:comment>
     <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000035">
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0002753"/>
     </rdf:Description>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000037 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000038 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+    </owl:Class>
     
 
 
@@ -270,7 +366,8 @@ schurer at med dot miami dot edu</rdfs:comment>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>    
+    </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000044 -->
@@ -312,6 +409,14 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
+    <!-- http://www.bioassayontology.org/bao#BAO_0000072 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0000076 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000076">
@@ -330,6 +435,14 @@ schurer at med dot miami dot edu</rdfs:comment>
     <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000077">
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0003115"/>
     </rdf:Description>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000089 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+    </owl:Class>
     
 
 
@@ -357,7 +470,38 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
-   
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000099 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001396"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000105 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000119 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000138 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+    </owl:Class>
     
 
 
@@ -450,6 +594,7 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000178 -->
@@ -470,6 +615,7 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000180 -->
@@ -937,6 +1083,7 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000220 -->
@@ -960,12 +1107,6 @@ schurer at med dot miami dot edu</rdfs:comment>
     <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000224">
         <owl:disjointWith rdf:resource="http://www.bioassayontology.org/bao#BAO_0000225"/>
     </rdf:Description>
-    
-
-
-    <!-- http://www.bioassayontology.org/bao#BAO_0000225 -->
-
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000225"/>
     
 
 
@@ -1005,6 +1146,14 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
+    <!-- http://www.bioassayontology.org/bao#BAO_0000239 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0000248 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000248">
@@ -1029,12 +1178,6 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
-    <!-- http://www.bioassayontology.org/bao#BAO_0000254 -->
-
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000254"/>
-    
-
-
     <!-- http://www.bioassayontology.org/bao#BAO_0000269 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000269">
@@ -1046,6 +1189,7 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000297 -->
@@ -1206,12 +1350,6 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
-    <!-- http://www.bioassayontology.org/bao#BAO_0000357 -->
-
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000357"/>
-    
-
-
     <!-- http://www.bioassayontology.org/bao#BAO_0000360 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000360">
@@ -1258,32 +1396,11 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
-    <!-- http://www.bioassayontology.org/bao#BAO_0000509 -->
-
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000509"/>
-    
-
-
     <!-- http://www.bioassayontology.org/bao#BAO_0000510 -->
 
     <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000510">
         <owl:disjointWith rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
     </rdf:Description>
-    
-
-
-    <!-- http://www.bioassayontology.org/bao#BAO_0000511 -->
-
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000511"/>
-    
-
-
-    <!-- http://www.bioassayontology.org/bao#BAO_0000518 -->
-
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000518"/>
-    
-
-  
     
 
 
@@ -1335,11 +1452,11 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
-    <!-- http://www.bioassayontology.org/bao#BAO_0000553 -->
+    <!-- http://www.bioassayontology.org/bao#BAO_0000565 -->
 
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000553"/>
-    
-
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </owl:Class>
     
 
 
@@ -1385,6 +1502,7 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000656 -->
@@ -1410,12 +1528,6 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Class>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://www.bioassayontology.org/bao#BAO_0000658 -->
-
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000658"/>
     
 
 
@@ -1454,6 +1566,20 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000732 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000732">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000743 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
     
 
 
@@ -1494,6 +1620,15 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000758 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000758">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000770 -->
@@ -1514,6 +1649,7 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Class>
         </rdfs:subClassOf>
     </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000775 -->
@@ -1558,6 +1694,7 @@ schurer at med dot miami dot edu</rdfs:comment>
         </rdfs:subClassOf>
     </owl:Class>
     
+
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000804 -->
 
@@ -1610,6 +1747,15 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0000818 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000818">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0000828 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000828">
@@ -1629,6 +1775,7 @@ schurer at med dot miami dot edu</rdfs:comment>
         </rdfs:subClassOf>
     </owl:Class>
     
+
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000831 -->
 
@@ -1669,6 +1816,7 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
     <!-- http://www.bioassayontology.org/bao#BAO_0000858 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000858">
@@ -1708,6 +1856,7 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
     <!-- http://www.bioassayontology.org/bao#BAO_0000875 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000875">
@@ -1726,6 +1875,7 @@ schurer at med dot miami dot edu</rdfs:comment>
         </rdfs:subClassOf>
     </owl:Class>
     
+
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000881 -->
 
@@ -1785,7 +1935,6 @@ schurer at med dot miami dot edu</rdfs:comment>
         </rdfs:subClassOf>
     </owl:Class>
     
-
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0000961 -->
@@ -1918,6 +2067,7 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
     <!-- http://www.bioassayontology.org/bao#BAO_0001028 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0001028">
@@ -2015,6 +2165,14 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
+    <!-- http://www.bioassayontology.org/bao#BAO_0002001 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0002006 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002006">
@@ -2081,6 +2239,22 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
+    <!-- http://www.bioassayontology.org/bao#BAO_0002030 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002032 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0002040 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002040">
@@ -2098,7 +2272,6 @@ schurer at med dot miami dot edu</rdfs:comment>
         </owl:equivalentClass>
     </owl:Class>
     
-
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0002043 -->
@@ -2151,6 +2324,14 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
+    <!-- http://www.bioassayontology.org/bao#BAO_0002057 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0002081 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002081">
@@ -2197,11 +2378,91 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
+    <!-- http://www.bioassayontology.org/bao#BAO_0002085 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002087 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002088 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002092 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002093 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0002094 -->
 
     <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0002094">
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0002753"/>
     </rdf:Description>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002096 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002098 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002099 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001396"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002102 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002105 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
     
 
 
@@ -2267,7 +2528,6 @@ schurer at med dot miami dot edu</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
-    
     
 
 
@@ -2557,7 +2817,15 @@ schurer at med dot miami dot edu</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0002305"/>
         <rdfs:label>two dimensional QSAR</rdfs:label>
     </owl:Class>
- 
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002539 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0002542 -->
@@ -2565,7 +2833,8 @@ schurer at med dot miami dot edu</rdfs:comment>
     <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0002542">
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0003114"/>
     </rdf:Description>
-   
+    
+
 
     <!-- http://www.bioassayontology.org/bao#BAO_0002570 -->
 
@@ -2583,6 +2852,7 @@ schurer at med dot miami dot edu</rdfs:comment>
         <rdfs:label>IN Cell Analyzer</rdfs:label>
     </owl:Class>
     
+
 
     <!-- http://www.bioassayontology.org/bao#BAO_0002584 -->
 
@@ -2668,9 +2938,18 @@ schurer at med dot miami dot edu</rdfs:comment>
     
 
 
+    <!-- http://www.bioassayontology.org/bao#BAO_0002609 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0002618 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2702,6 +2981,31 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002636 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002642 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002656 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0002667 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002667">
@@ -2716,6 +3020,406 @@ schurer at med dot miami dot edu</rdfs:comment>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002670 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002670">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002673 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002674 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002675 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002676 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002677 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002677">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002678 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002678">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002679 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002680 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002681 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002682 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002682">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002683 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002684 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002684">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002685 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002685">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002686 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002687 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002688 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002688">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002689 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002690 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002690">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002691 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002691">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002692 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002693 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002694 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002695 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002696 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002697 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002698 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002699 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002700 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002701 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002701">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002702 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002703 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002703">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002704 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002705 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002706 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002706">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002707 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002708 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002709 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002710 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002711 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002711">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002712 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002713 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002713">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002714 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002715 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002716 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002717 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002717">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002718 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002726 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002737 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002756 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002756">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
     </owl:Class>
     
 
@@ -2736,6 +3440,22 @@ schurer at med dot miami dot edu</rdfs:comment>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002760 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002760">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002798 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
     </owl:Class>
     
 
@@ -2778,6 +3498,47 @@ schurer at med dot miami dot edu</rdfs:comment>
     </rdf:Description>
     
 
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002844 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002844">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002889 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002889">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002890 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002890">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002891 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002891">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0002932 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.bioassayontology.org/bao#BAO_0002989 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002989">
@@ -2810,6 +3571,7 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
     <!-- http://www.bioassayontology.org/bao#BAO_0003006 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003006">
@@ -2838,6 +3600,7 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
     <!-- http://www.bioassayontology.org/bao#BAO_0003025 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003025">
@@ -2864,7 +3627,6 @@ schurer at med dot miami dot edu</rdfs:comment>
     <!-- http://www.bioassayontology.org/bao#BAO_0003030 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003030">
-
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0090012"/>
@@ -2900,9 +3662,11 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
     <!-- http://www.bioassayontology.org/bao#BAO_0003048 -->
 
     <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.bioassayontology.org/bao#BAO_0002788"/>
@@ -2933,17 +3697,109 @@ schurer at med dot miami dot edu</rdfs:comment>
     </owl:Class>
     
 
+
     <!-- http://www.bioassayontology.org/bao#BAO_0003058 -->
 
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0003058">
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
         <owl:disjointWith rdf:resource="http://www.bioassayontology.org/bao#BAO_0003060"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003059 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
     
 
 
     <!-- http://www.bioassayontology.org/bao#BAO_0003060 -->
 
-    <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0003060"/>
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003061 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003062 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003063 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003064 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003065 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003067 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003068 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003072 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003073 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0003074 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+    </owl:Class>
     
 
 
@@ -2968,6 +3824,94 @@ schurer at med dot miami dot edu</rdfs:comment>
     <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0003119">
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0002753"/>
     </rdf:Description>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0080022 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0080022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0080029 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0080029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0100003 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0100003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51121"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0100004 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0100004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51121"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0100008 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0100008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51121"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0110003 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0110003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0110004 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0110004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0110005 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0110005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0110006 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0110006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0190007 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0190007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bioassayontology.org/bao#BAO_0190008 -->
+
+    <owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0190008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+    </owl:Class>
     
 
 
@@ -3403,480 +4347,9 @@ schurer at med dot miami dot edu</rdfs:comment>
             <rdf:Description rdf:about="http://www.bioassayontology.org/bao#BAO_0000651"/>
         </owl:members>
     </rdf:Description>
-
-
-
-
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Generated Axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000037">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000038">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000072">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000089">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000099">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001396"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000105">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000119">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000138">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000239">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000565">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000732">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000743">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000758">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0000818">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002001">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002030">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002032">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002057">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002085">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002087">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002088">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002092">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002093">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002096">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002098">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002099">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001396"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002102">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002105">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002539">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002609">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002618">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002636">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002642">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002656">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002670">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002673">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002674">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002675">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002676">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002677">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002678">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002679">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002680">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002681">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002682">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002683">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002684">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002685">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002686">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002687">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002688">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002689">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002690">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002691">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002692">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002693">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002694">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002695">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002696">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002697">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002698">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002699">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002700">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002701">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002702">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002703">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002704">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002705">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002706">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002707">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002708">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002709">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002710">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002711">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002712">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002713">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002714">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002715">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002716">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002717">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002718">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002726">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002737">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002756">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002760">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002798">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002844">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002889">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002890">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002891">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0002932">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003048">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003058">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003059">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003060">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003061">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003062">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003063">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003064">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003065">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003067">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003068">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003072">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003073">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0003074">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0080022">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0080029">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0100003">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51121"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0100004">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51121"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0100008">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51121"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0110003">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0110004">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0110005">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0110006">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0190007">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="http://www.bioassayontology.org/bao#BAO_0190008">
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
-	</owl:Class>
-
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
