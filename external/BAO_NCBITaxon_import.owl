@@ -2,11 +2,12 @@
 <rdf:RDF xmlns="http://www.bioassayontology.org/bao/external/BAO_NCBITaxon_import.owl#"
      xml:base="http://www.bioassayontology.org/bao/external/BAO_NCBITaxon_import.owl"
      xmlns:bao="http://www.bioassayontology.org/bao#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.bioassayontology.org/bao/external/BAO_NCBITaxon_import.owl"/>
     
 
@@ -19,23 +20,32 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -53,12 +63,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
-        <rdfs:label>Mus musculus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
         <obo:IAO_0000111>Mus musculus</obo:IAO_0000111>
-        <obo:IAO_0000118>mouse</obo:IAO_0000118>
         <obo:IAO_0000118>house mouse</obo:IAO_0000118>
+        <obo:IAO_0000118>mouse</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Mus musculus</rdfs:label>
     </owl:Class>
     
 
@@ -66,15 +76,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10116">
-        <rdfs:label>Rattus norvegicus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
-        <obo:IAO_0000118>Norway rat</obo:IAO_0000118>
         <obo:IAO_0000111>Rattus norvegicus</obo:IAO_0000111>
-        <obo:IAO_0000118>rats</obo:IAO_0000118>
+        <obo:IAO_0000118>Mus norvegicus</obo:IAO_0000118>
+        <obo:IAO_0000118>Norway rat</obo:IAO_0000118>
         <obo:IAO_0000118>brown rat</obo:IAO_0000118>
         <obo:IAO_0000118>rat</obo:IAO_0000118>
-        <obo:IAO_0000118>Mus norvegicus</obo:IAO_0000118>
+        <obo:IAO_0000118>rats</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Rattus norvegicus</rdfs:label>
     </owl:Class>
     
 
@@ -82,15 +92,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10141">
-        <rdfs:label>Cavia porcellus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
-        <obo:IAO_0000118>Cavia aperea porcellus</obo:IAO_0000118>
-        <obo:IAO_0000118>Mus porcellus</obo:IAO_0000118>
-        <obo:IAO_0000118>Cavia cobaya</obo:IAO_0000118>
-        <obo:IAO_0000118>guinea pig</obo:IAO_0000118>
         <obo:IAO_0000111>Cavia porcellus</obo:IAO_0000111>
+        <obo:IAO_0000118>Cavia aperea porcellus</obo:IAO_0000118>
+        <obo:IAO_0000118>Cavia cobaya</obo:IAO_0000118>
+        <obo:IAO_0000118>Mus porcellus</obo:IAO_0000118>
         <obo:IAO_0000118>domestic guinea pig</obo:IAO_0000118>
+        <obo:IAO_0000118>guinea pig</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Cavia porcellus</rdfs:label>
     </owl:Class>
     
 
@@ -98,11 +108,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10245">
-        <rdfs:label>Vaccinia virus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000232"/>
         <obo:IAO_0000111>Vaccinia virus</obo:IAO_0000111>
         <obo:IAO_0000118>vaccinia virus VV</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Vaccinia virus</rdfs:label>
     </owl:Class>
     
 
@@ -110,11 +120,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_102793 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_102793">
-        <rdfs:label>H5N1 subtype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000232"/>
         <obo:IAO_0000111>H5N1 subtype</obo:IAO_0000111>
         <obo:IAO_0000118>H5N1</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>H5N1 subtype</rdfs:label>
     </owl:Class>
     
 
@@ -122,15 +132,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10376 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10376">
-        <rdfs:label>Human gammaherpesvirus 4</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000232"/>
-        <obo:IAO_0000118>Epstein Barr virus</obo:IAO_0000118>
         <obo:IAO_0000111>Human gammaherpesvirus 4</obo:IAO_0000111>
-        <obo:IAO_0000118>Human herpesvirus type 4</obo:IAO_0000118>
+        <obo:IAO_0000118>Epstein Barr virus</obo:IAO_0000118>
         <obo:IAO_0000118>Epstein-Barr virus</obo:IAO_0000118>
-        <obo:IAO_0000118>Human herpesvirus 4</obo:IAO_0000118>
         <obo:IAO_0000118>Epstein-Barr virus EBV</obo:IAO_0000118>
+        <obo:IAO_0000118>Human herpesvirus 4</obo:IAO_0000118>
+        <obo:IAO_0000118>Human herpesvirus type 4</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Human gammaherpesvirus 4</rdfs:label>
     </owl:Class>
     
 
@@ -138,12 +148,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10906 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10906">
-        <rdfs:label>Bluetongue virus 10</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000232"/>
         <obo:IAO_0000111>Bluetongue virus 10</obo:IAO_0000111>
         <obo:IAO_0000118>Bluetongue virus (SEROTYPE 10)</obo:IAO_0000118>
         <obo:IAO_0000118>Bluetongue virus type 10</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Bluetongue virus 10</rdfs:label>
     </owl:Class>
     
 
@@ -151,13 +161,13 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11036">
-        <rdfs:label>Venezuelan equine encephalitis virus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000232"/>
         <obo:IAO_0000111>Venezuelan equine encephalitis virus</obo:IAO_0000111>
-        <obo:IAO_0000118>Venezuelan equine encephalitis virus VEE</obo:IAO_0000118>
         <obo:IAO_0000118>Venezuelan equine encephalitis VEE</obo:IAO_0000118>
+        <obo:IAO_0000118>Venezuelan equine encephalitis virus VEE</obo:IAO_0000118>
         <obo:IAO_0000118>Venezuelan equine encephalomyelitis virus</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Venezuelan equine encephalitis virus</rdfs:label>
     </owl:Class>
     
 
@@ -165,10 +175,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11082">
-        <rdfs:label>West Nile virus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000232"/>
         <obo:IAO_0000111>West Nile virus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>West Nile virus</rdfs:label>
     </owl:Class>
     
 
@@ -176,12 +186,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11250">
-        <rdfs:label>Human orthopneumovirus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000232"/>
         <obo:IAO_0000111>Human orthopneumovirus</obo:IAO_0000111>
-        <obo:IAO_0000118>human RSV</obo:IAO_0000118>
         <obo:IAO_0000118>Human respiratory syncytial virus</obo:IAO_0000118>
+        <obo:IAO_0000118>human RSV</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Human orthopneumovirus</rdfs:label>
     </owl:Class>
     
 
@@ -189,21 +199,21 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11676">
-        <rdfs:label>Human immunodeficiency virus 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000232"/>
-        <obo:IAO_0000118>human immunodeficiency virus type 1 HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118>human immunodeficiency virus HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118>human immunodeficiency virus 1 HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118>AIDS virus</obo:IAO_0000118>
-        <obo:IAO_0000118>human immunodeficiency virus-1 HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118>Human immunodeficiency virus type 1</obo:IAO_0000118>
-        <obo:IAO_0000118>human immunodeficiency virus type I HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118>human immunodeficiency virus type 1, HIV-1</obo:IAO_0000118>
         <obo:IAO_0000111>Human immunodeficiency virus 1</obo:IAO_0000111>
-        <obo:IAO_0000118>human immunodeficiency virus type 1 HIV1</obo:IAO_0000118>
+        <obo:IAO_0000118>AIDS virus</obo:IAO_0000118>
+        <obo:IAO_0000118>Human immunodeficiency virus type 1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus 1 HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus HIV-1</obo:IAO_0000118>
         <obo:IAO_0000118>human immunodeficiency virus type 1 HIV 1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type 1 HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type 1 HIV1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type 1, HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type I HIV-1</obo:IAO_0000118>
         <obo:IAO_0000118>human immunodeficiency virus type-1 HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus-1 HIV-1</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Human immunodeficiency virus 1</rdfs:label>
     </owl:Class>
     
 
@@ -211,12 +221,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1245">
-        <rdfs:label>Leuconostoc mesenteroides</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Betacoccus arabinosaceus</obo:IAO_0000118>
         <obo:IAO_0000111>Leuconostoc mesenteroides</obo:IAO_0000111>
         <obo:IAO_0000118>Ascococcus mesenteroides</obo:IAO_0000118>
+        <obo:IAO_0000118>Betacoccus arabinosaceus</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Leuconostoc mesenteroides</rdfs:label>
     </owl:Class>
     
 
@@ -224,15 +234,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1280">
-        <rdfs:label>Staphylococcus aureus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
+        <obo:IAO_0000111>Staphylococcus aureus</obo:IAO_0000111>
         <obo:IAO_0000118>Micrococcus aureus</obo:IAO_0000118>
         <obo:IAO_0000118>Micrococcus pyogenes</obo:IAO_0000118>
-        <obo:IAO_0000118>Staphylococcus pyogenes aureus</obo:IAO_0000118>
-        <obo:IAO_0000111>Staphylococcus aureus</obo:IAO_0000111>
         <obo:IAO_0000118>Staphlococcus pyogenes citreus</obo:IAO_0000118>
         <obo:IAO_0000118>Staphylococcus aureus subsp. anaerobius</obo:IAO_0000118>
+        <obo:IAO_0000118>Staphylococcus pyogenes aureus</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Staphylococcus aureus</rdfs:label>
     </owl:Class>
     
 
@@ -240,17 +250,17 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1351">
-        <rdfs:label>Enterococcus faecalis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Enterocoque</obo:IAO_0000118>
         <obo:IAO_0000111>Enterococcus faecalis</obo:IAO_0000111>
+        <obo:IAO_0000118>Enterococcus proteiformis</obo:IAO_0000118>
+        <obo:IAO_0000118>Enterocoque</obo:IAO_0000118>
         <obo:IAO_0000118>Micrococcus ovalis</obo:IAO_0000118>
         <obo:IAO_0000118>Micrococcus zymogenes</obo:IAO_0000118>
+        <obo:IAO_0000118>Streptococcus faecalis</obo:IAO_0000118>
         <obo:IAO_0000118>Streptococcus glycerinaceus</obo:IAO_0000118>
         <obo:IAO_0000118>Streptococcus liquefaciens</obo:IAO_0000118>
-        <obo:IAO_0000118>Enterococcus proteiformis</obo:IAO_0000118>
-        <obo:IAO_0000118>Streptococcus faecalis</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Enterococcus faecalis</rdfs:label>
     </owl:Class>
     
 
@@ -258,14 +268,14 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1392 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1392">
-        <rdfs:label>Bacillus anthracis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>anthrax</obo:IAO_0000118>
-        <obo:IAO_0000118>anthrax bacterium</obo:IAO_0000118>
-        <obo:IAO_0000118>Bacteridium anthracis</obo:IAO_0000118>
         <obo:IAO_0000111>Bacillus anthracis</obo:IAO_0000111>
         <obo:IAO_0000118>Bacillus cereus var. anthracis</obo:IAO_0000118>
+        <obo:IAO_0000118>Bacteridium anthracis</obo:IAO_0000118>
+        <obo:IAO_0000118>anthrax</obo:IAO_0000118>
+        <obo:IAO_0000118>anthrax bacterium</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Bacillus anthracis</rdfs:label>
     </owl:Class>
     
 
@@ -273,12 +283,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1422 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1422">
-        <rdfs:label>Geobacillus stearothermophilus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
+        <obo:IAO_0000111>Geobacillus stearothermophilus</obo:IAO_0000111>
         <obo:IAO_0000118>Bacillus stearothermophilus</obo:IAO_0000118>
         <obo:IAO_0000118>Bacillus thermoliquefaciens</obo:IAO_0000118>
-        <obo:IAO_0000111>Geobacillus stearothermophilus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Geobacillus stearothermophilus</rdfs:label>
     </owl:Class>
     
 
@@ -286,16 +296,16 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1491 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1491">
-        <rdfs:label>Clostridium botulinum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Pacinia putrifica</obo:IAO_0000118>
-        <obo:IAO_0000118>Clostridium putrificum</obo:IAO_0000118>
-        <obo:IAO_0000118>Botulobacillus botulinus</obo:IAO_0000118>
-        <obo:IAO_0000118>Bacillus putrificus</obo:IAO_0000118>
         <obo:IAO_0000111>Clostridium botulinum</obo:IAO_0000111>
-        <obo:IAO_0000118>Ermengemillus botulinus</obo:IAO_0000118>
         <obo:IAO_0000118>Bacillus botulinus</obo:IAO_0000118>
+        <obo:IAO_0000118>Bacillus putrificus</obo:IAO_0000118>
+        <obo:IAO_0000118>Botulobacillus botulinus</obo:IAO_0000118>
+        <obo:IAO_0000118>Clostridium putrificum</obo:IAO_0000118>
+        <obo:IAO_0000118>Ermengemillus botulinus</obo:IAO_0000118>
+        <obo:IAO_0000118>Pacinia putrifica</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Clostridium botulinum</rdfs:label>
     </owl:Class>
     
 
@@ -303,11 +313,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1710587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1710587">
-        <rdfs:label>Photuris pensylvanica</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
         <obo:IAO_0000111>Photuris pensylvanica</obo:IAO_0000111>
         <obo:IAO_0000118>Pennsylania firefly</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Photuris pensylvanica</rdfs:label>
     </owl:Class>
     
 
@@ -315,15 +325,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1773 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1773">
-        <rdfs:label>Mycobacterium tuberculosis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
         <obo:IAO_0000111>Mycobacterium tuberculosis</obo:IAO_0000111>
-        <obo:IAO_0000118>Mycobacterium tuberculosis variant tuberculosis</obo:IAO_0000118>
         <obo:IAO_0000118>Bacillus tuberculosis</obo:IAO_0000118>
-        <obo:IAO_0000118>Mycobacterium tuberculosis typus humanus</obo:IAO_0000118>
         <obo:IAO_0000118>Bacterium tuberculosis</obo:IAO_0000118>
+        <obo:IAO_0000118>Mycobacterium tuberculosis typus humanus</obo:IAO_0000118>
         <obo:IAO_0000118>Mycobacterium tuberculosis var. hominis</obo:IAO_0000118>
+        <obo:IAO_0000118>Mycobacterium tuberculosis variant tuberculosis</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Mycobacterium tuberculosis</rdfs:label>
     </owl:Class>
     
 
@@ -331,11 +341,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_208964 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_208964">
-        <rdfs:label>Pseudomonas aeruginosa PAO1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
         <obo:IAO_0000111>Pseudomonas aeruginosa PAO1</obo:IAO_0000111>
         <obo:IAO_0000118>Pseudomonas sp. PAO1</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Pseudomonas aeruginosa PAO1</rdfs:label>
     </owl:Class>
     
 
@@ -343,14 +353,14 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_210">
-        <rdfs:label>Helicobacter pylori</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Campylobacter pylori subsp. pylori</obo:IAO_0000118>
-        <obo:IAO_0000118>Campylobacter pylori</obo:IAO_0000118>
-        <obo:IAO_0000118>Helicobacter nemestrinae</obo:IAO_0000118>
         <obo:IAO_0000111>Helicobacter pylori</obo:IAO_0000111>
+        <obo:IAO_0000118>Campylobacter pylori</obo:IAO_0000118>
+        <obo:IAO_0000118>Campylobacter pylori subsp. pylori</obo:IAO_0000118>
         <obo:IAO_0000118>Campylobacter pyloridis</obo:IAO_0000118>
+        <obo:IAO_0000118>Helicobacter nemestrinae</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Helicobacter pylori</rdfs:label>
     </owl:Class>
     
 
@@ -358,14 +368,14 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3702 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3702">
-        <rdfs:label>Arabidopsis thaliana</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000605"/>
+        <obo:IAO_0000111>Arabidopsis thaliana</obo:IAO_0000111>
+        <obo:IAO_0000118>Arabis thaliana</obo:IAO_0000118>
         <obo:IAO_0000118>mouse-ear cress</obo:IAO_0000118>
         <obo:IAO_0000118>thale cress</obo:IAO_0000118>
         <obo:IAO_0000118>thale-cress</obo:IAO_0000118>
-        <obo:IAO_0000118>Arabis thaliana</obo:IAO_0000118>
-        <obo:IAO_0000111>Arabidopsis thaliana</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Arabidopsis thaliana</rdfs:label>
     </owl:Class>
     
 
@@ -373,12 +383,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_373153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_373153">
-        <rdfs:label>Streptococcus pneumoniae D39</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Streptococcus pneumoniae strain D39</obo:IAO_0000118>
-        <obo:IAO_0000118>Streptococcus pneumoniae str. D39</obo:IAO_0000118>
         <obo:IAO_0000111>Streptococcus pneumoniae D39</obo:IAO_0000111>
+        <obo:IAO_0000118>Streptococcus pneumoniae str. D39</obo:IAO_0000118>
+        <obo:IAO_0000118>Streptococcus pneumoniae strain D39</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Streptococcus pneumoniae D39</rdfs:label>
     </owl:Class>
     
 
@@ -386,14 +396,14 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_39947 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39947">
-        <rdfs:label>Oryza sativa Japonica Group</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000605"/>
         <obo:IAO_0000111>Oryza sativa Japonica Group</obo:IAO_0000111>
-        <obo:IAO_0000118>Japonica rice</obo:IAO_0000118>
         <obo:IAO_0000118>Japanese rice</obo:IAO_0000118>
-        <obo:IAO_0000118>Oryza sativa subsp. japonica</obo:IAO_0000118>
+        <obo:IAO_0000118>Japonica rice</obo:IAO_0000118>
         <obo:IAO_0000118>Oryza sativa (japonica cultivar-group)</obo:IAO_0000118>
+        <obo:IAO_0000118>Oryza sativa subsp. japonica</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Oryza sativa Japonica Group</rdfs:label>
     </owl:Class>
     
 
@@ -401,10 +411,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_469">
-        <rdfs:label>Acinetobacter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
         <obo:IAO_0000111>Acinetobacter</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Acinetobacter</rdfs:label>
     </owl:Class>
     
 
@@ -412,19 +422,19 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4932 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4932">
-        <rdfs:label>Saccharomyces cerevisiae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000233"/>
-        <obo:IAO_0000118>Mycoderma cerevisiae</obo:IAO_0000118>
-        <obo:IAO_0000118>Saccharomyces uvarum var. melibiosus</obo:IAO_0000118>
-        <obo:IAO_0000118>baker&#39;s yeast</obo:IAO_0000118>
-        <obo:IAO_0000118>brewer&#39;s yeast</obo:IAO_0000118>
-        <obo:IAO_0000118>Saccharomyces oviformis</obo:IAO_0000118>
-        <obo:IAO_0000118>S. cerevisiae</obo:IAO_0000118>
         <obo:IAO_0000111>Saccharomyces cerevisiae</obo:IAO_0000111>
-        <obo:IAO_0000118>Saccharomyces capensis</obo:IAO_0000118>
         <obo:IAO_0000118>Candida robusta</obo:IAO_0000118>
+        <obo:IAO_0000118>Mycoderma cerevisiae</obo:IAO_0000118>
+        <obo:IAO_0000118>S. cerevisiae</obo:IAO_0000118>
+        <obo:IAO_0000118>Saccharomyces capensis</obo:IAO_0000118>
         <obo:IAO_0000118>Saccharomyces italicus</obo:IAO_0000118>
+        <obo:IAO_0000118>Saccharomyces oviformis</obo:IAO_0000118>
+        <obo:IAO_0000118>Saccharomyces uvarum var. melibiosus</obo:IAO_0000118>
+        <obo:IAO_0000118>baker&apos;s yeast</obo:IAO_0000118>
+        <obo:IAO_0000118>brewer&apos;s yeast</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Saccharomyces cerevisiae</rdfs:label>
     </owl:Class>
     
 
@@ -432,17 +442,17 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5207">
-        <rdfs:label>Cryptococcus neoformans</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000418"/>
-        <obo:IAO_0000118>Debaryomyces neoformans</obo:IAO_0000118>
-        <obo:IAO_0000118>Blastomyces neoformans</obo:IAO_0000118>
         <obo:IAO_0000111>Cryptococcus neoformans</obo:IAO_0000111>
-        <obo:IAO_0000118>Torula neoformans</obo:IAO_0000118>
+        <obo:IAO_0000118>Blastomyces neoformans</obo:IAO_0000118>
+        <obo:IAO_0000118>Debaryomyces neoformans</obo:IAO_0000118>
+        <obo:IAO_0000118>Filobasidiella neoformans</obo:IAO_0000118>
         <obo:IAO_0000118>Lipomyces neoformans</obo:IAO_0000118>
         <obo:IAO_0000118>Saccharomyces neoformans</obo:IAO_0000118>
-        <obo:IAO_0000118>Filobasidiella neoformans</obo:IAO_0000118>
+        <obo:IAO_0000118>Torula neoformans</obo:IAO_0000118>
         <obo:IAO_0000118>Torulopsis neoformans</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Cryptococcus neoformans</rdfs:label>
     </owl:Class>
     
 
@@ -450,24 +460,24 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5476 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5476">
-        <rdfs:label>Candida albicans</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000553"/>
-        <obo:IAO_0000118>Parasaccharomyces albicans</obo:IAO_0000118>
-        <obo:IAO_0000118>Myceloblastanon albicans</obo:IAO_0000118>
-        <obo:IAO_0000118>Oidium albicans</obo:IAO_0000118>
-        <obo:IAO_0000118>Monilia stellatoidea</obo:IAO_0000118>
-        <obo:IAO_0000118>Candida albicans var. stellatoidea</obo:IAO_0000118>
-        <obo:IAO_0000118>Procandida albicans</obo:IAO_0000118>
-        <obo:IAO_0000118>Dematium albicans</obo:IAO_0000118>
-        <obo:IAO_0000118>Saccharomyces albicans</obo:IAO_0000118>
-        <obo:IAO_0000118>Procandida stellatoidea</obo:IAO_0000118>
-        <obo:IAO_0000118>Candida stellatoidea</obo:IAO_0000118>
-        <obo:IAO_0000118>Mycotorula albicans</obo:IAO_0000118>
         <obo:IAO_0000111>Candida albicans</obo:IAO_0000111>
-        <obo:IAO_0000118>Syringospora albicans</obo:IAO_0000118>
-        <obo:IAO_0000118>Monilia albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Candida albicans var. stellatoidea</obo:IAO_0000118>
+        <obo:IAO_0000118>Candida stellatoidea</obo:IAO_0000118>
+        <obo:IAO_0000118>Dematium albicans</obo:IAO_0000118>
         <obo:IAO_0000118>Endomyces albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Monilia albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Monilia stellatoidea</obo:IAO_0000118>
+        <obo:IAO_0000118>Myceloblastanon albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Mycotorula albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Oidium albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Parasaccharomyces albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Procandida albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Procandida stellatoidea</obo:IAO_0000118>
+        <obo:IAO_0000118>Saccharomyces albicans</obo:IAO_0000118>
+        <obo:IAO_0000118>Syringospora albicans</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Candida albicans</rdfs:label>
     </owl:Class>
     
 
@@ -475,16 +485,16 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
-        <rdfs:label>Escherichia coli</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Enterococcus coli</obo:IAO_0000118>
         <obo:IAO_0000111>Escherichia coli</obo:IAO_0000111>
-        <obo:IAO_0000118>Bacterium coli</obo:IAO_0000118>
         <obo:IAO_0000118>Bacillus coli</obo:IAO_0000118>
-        <obo:IAO_0000118>Escherichia/Shigella coli</obo:IAO_0000118>
+        <obo:IAO_0000118>Bacterium coli</obo:IAO_0000118>
         <obo:IAO_0000118>Bacterium coli commune</obo:IAO_0000118>
         <obo:IAO_0000118>E. coli</obo:IAO_0000118>
+        <obo:IAO_0000118>Enterococcus coli</obo:IAO_0000118>
+        <obo:IAO_0000118>Escherichia/Shigella coli</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Escherichia coli</rdfs:label>
     </owl:Class>
     
 
@@ -492,12 +502,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5664 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5664">
-        <rdfs:label>Leishmania major</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000518"/>
-        <obo:IAO_0000118>Leishmania (Leishmania) major</obo:IAO_0000118>
         <obo:IAO_0000111>Leishmania major</obo:IAO_0000111>
+        <obo:IAO_0000118>Leishmania (Leishmania) major</obo:IAO_0000118>
         <obo:IAO_0000118>Leishmania tropica major</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Leishmania major</rdfs:label>
     </owl:Class>
     
 
@@ -505,11 +515,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5665 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5665">
-        <rdfs:label>Leishmania mexicana</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000662"/>
-        <obo:IAO_0000118>Leishmania (Leishmania) mexicana</obo:IAO_0000118>
         <obo:IAO_0000111>Leishmania mexicana</obo:IAO_0000111>
+        <obo:IAO_0000118>Leishmania (Leishmania) mexicana</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Leishmania mexicana</rdfs:label>
     </owl:Class>
     
 
@@ -517,12 +527,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5691 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5691">
-        <rdfs:label>Trypanosoma brucei</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000662"/>
         <obo:IAO_0000111>Trypanosoma brucei</obo:IAO_0000111>
-        <obo:IAO_0000118>Trypanosoma brucei subgroup</obo:IAO_0000118>
         <obo:IAO_0000118>Trypanosoma (Trypanozoon) brucei</obo:IAO_0000118>
+        <obo:IAO_0000118>Trypanosoma brucei subgroup</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Trypanosoma brucei</rdfs:label>
     </owl:Class>
     
 
@@ -530,10 +540,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5693 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5693">
-        <rdfs:label>Trypanosoma cruzi</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000662"/>
         <obo:IAO_0000111>Trypanosoma cruzi</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Trypanosoma cruzi</rdfs:label>
     </owl:Class>
     
 
@@ -541,15 +551,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_573 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_573">
-        <rdfs:label>Klebsiella pneumoniae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
+        <obo:IAO_0000111>Klebsiella pneumoniae</obo:IAO_0000111>
+        <obo:IAO_0000118>&apos;Klebsiella aerogenes&apos; (Kruse) Taylor et al. 1956</obo:IAO_0000118>
         <obo:IAO_0000118>Bacillus pneumoniae</obo:IAO_0000118>
-        <obo:IAO_0000118>Klebsiella pneumoniae aerogenes</obo:IAO_0000118>
         <obo:IAO_0000118>Bacterium pneumoniae crouposae</obo:IAO_0000118>
         <obo:IAO_0000118>Hyalococcus pneumoniae</obo:IAO_0000118>
-        <obo:IAO_0000118>&#39;Klebsiella aerogenes&#39; (Kruse) Taylor et al. 1956</obo:IAO_0000118>
-        <obo:IAO_0000111>Klebsiella pneumoniae</obo:IAO_0000111>
+        <obo:IAO_0000118>Klebsiella pneumoniae aerogenes</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Klebsiella pneumoniae</rdfs:label>
     </owl:Class>
     
 
@@ -557,12 +567,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5833 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5833">
-        <rdfs:label>Plasmodium falciparum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000662"/>
+        <obo:IAO_0000111>Plasmodium falciparum</obo:IAO_0000111>
         <obo:IAO_0000118>Plasmodium (Laverania) falciparum</obo:IAO_0000118>
         <obo:IAO_0000118>malaria parasite P. falciparum</obo:IAO_0000118>
-        <obo:IAO_0000111>Plasmodium falciparum</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Plasmodium falciparum</rdfs:label>
     </owl:Class>
     
 
@@ -570,11 +580,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6100">
-        <rdfs:label>Aequorea victoria</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
-        <obo:IAO_0000118>Mesonema victoria</obo:IAO_0000118>
         <obo:IAO_0000111>Aequorea victoria</obo:IAO_0000111>
+        <obo:IAO_0000118>Mesonema victoria</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Aequorea victoria</rdfs:label>
     </owl:Class>
     
 
@@ -582,10 +592,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6183 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6183">
-        <rdfs:label>Schistosoma mansoni</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
         <obo:IAO_0000111>Schistosoma mansoni</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Schistosoma mansoni</rdfs:label>
     </owl:Class>
     
 
@@ -593,11 +603,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6192">
-        <rdfs:label>Fasciola hepatica</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
         <obo:IAO_0000111>Fasciola hepatica</obo:IAO_0000111>
         <obo:IAO_0000118>liver fluke</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Fasciola hepatica</rdfs:label>
     </owl:Class>
     
 
@@ -605,11 +615,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6239">
-        <rdfs:label>Caenorhabditis elegans</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
-        <obo:IAO_0000118>Rhabditis elegans</obo:IAO_0000118>
         <obo:IAO_0000111>Caenorhabditis elegans</obo:IAO_0000111>
+        <obo:IAO_0000118>Rhabditis elegans</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Caenorhabditis elegans</rdfs:label>
     </owl:Class>
     
 
@@ -617,12 +627,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6289 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6289">
-        <rdfs:label>Haemonchus contortus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
         <obo:IAO_0000111>Haemonchus contortus</obo:IAO_0000111>
-        <obo:IAO_0000118>red stomach worm</obo:IAO_0000118>
         <obo:IAO_0000118>barber pole worm</obo:IAO_0000118>
+        <obo:IAO_0000118>red stomach worm</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Haemonchus contortus</rdfs:label>
     </owl:Class>
     
 
@@ -630,11 +640,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_630">
-        <rdfs:label>Yersinia enterocolitica</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Bacterium enterocoliticum</obo:IAO_0000118>
         <obo:IAO_0000111>Yersinia enterocolitica</obo:IAO_0000111>
+        <obo:IAO_0000118>Bacterium enterocoliticum</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Yersinia enterocolitica</rdfs:label>
     </owl:Class>
     
 
@@ -642,15 +652,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_633">
-        <rdfs:label>Yersinia pseudotuberculosis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
         <obo:IAO_0000111>Yersinia pseudotuberculosis</obo:IAO_0000111>
-        <obo:IAO_0000118>Bacterium pseudotuberculosis</obo:IAO_0000118>
-        <obo:IAO_0000118>Shigella pseudotuberculosis</obo:IAO_0000118>
-        <obo:IAO_0000118>Pasteurella lymphangitidis</obo:IAO_0000118>
         <obo:IAO_0000118>Bacillus pseudotuberkulosis</obo:IAO_0000118>
+        <obo:IAO_0000118>Bacterium pseudotuberculosis</obo:IAO_0000118>
+        <obo:IAO_0000118>Pasteurella lymphangitidis</obo:IAO_0000118>
         <obo:IAO_0000118>Pasteurella pseudotuberculosis</obo:IAO_0000118>
+        <obo:IAO_0000118>Shigella pseudotuberculosis</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Yersinia pseudotuberculosis</rdfs:label>
     </owl:Class>
     
 
@@ -658,18 +668,18 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_669">
-        <rdfs:label>Vibrio harveyi</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Lucibacterium harveyi</obo:IAO_0000118>
-        <obo:IAO_0000118>Beneckea neptuna</obo:IAO_0000118>
-        <obo:IAO_0000118>Vibrio trachuri</obo:IAO_0000118>
-        <obo:IAO_0000118>Achromobacter harveyi</obo:IAO_0000118>
-        <obo:IAO_0000118>Photobacterium harveyi</obo:IAO_0000118>
         <obo:IAO_0000111>Vibrio harveyi</obo:IAO_0000111>
+        <obo:IAO_0000118>Achromobacter harveyi</obo:IAO_0000118>
         <obo:IAO_0000118>Beneckea harveyi</obo:IAO_0000118>
-        <obo:IAO_0000118>Vibrio carchariae</obo:IAO_0000118>
+        <obo:IAO_0000118>Beneckea neptuna</obo:IAO_0000118>
+        <obo:IAO_0000118>Lucibacterium harveyi</obo:IAO_0000118>
+        <obo:IAO_0000118>Photobacterium harveyi</obo:IAO_0000118>
         <obo:IAO_0000118>Pseudomonas harveyi</obo:IAO_0000118>
+        <obo:IAO_0000118>Vibrio carchariae</obo:IAO_0000118>
+        <obo:IAO_0000118>Vibrio trachuri</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Vibrio harveyi</rdfs:label>
     </owl:Class>
     
 
@@ -677,12 +687,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7054">
-        <rdfs:label>Photinus pyralis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
+        <obo:IAO_0000111>Photinus pyralis</obo:IAO_0000111>
         <obo:IAO_0000118>North American firefly</obo:IAO_0000118>
         <obo:IAO_0000118>common eastern firefly</obo:IAO_0000118>
-        <obo:IAO_0000111>Photinus pyralis</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Photinus pyralis</rdfs:label>
     </owl:Class>
     
 
@@ -690,12 +700,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7227">
-        <rdfs:label>Drosophila melanogaster</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000511"/>
-        <obo:IAO_0000118>Sophophora melanogaster</obo:IAO_0000118>
         <obo:IAO_0000111>Drosophila melanogaster</obo:IAO_0000111>
+        <obo:IAO_0000118>Sophophora melanogaster</obo:IAO_0000118>
         <obo:IAO_0000118>fruit fly</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Drosophila melanogaster</rdfs:label>
     </owl:Class>
     
 
@@ -703,19 +713,19 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7955">
-        <rdfs:label>Danio rerio</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000518"/>
-        <obo:IAO_0000118>Cyprinus rerio</obo:IAO_0000118>
         <obo:IAO_0000111>Danio rerio</obo:IAO_0000111>
+        <obo:IAO_0000118>Brachydanio rerio</obo:IAO_0000118>
+        <obo:IAO_0000118>Brachydanio rerio frankei</obo:IAO_0000118>
+        <obo:IAO_0000118>Cyprinus rerio</obo:IAO_0000118>
         <obo:IAO_0000118>Danio frankei</obo:IAO_0000118>
+        <obo:IAO_0000118>Danio rerio frankei</obo:IAO_0000118>
+        <obo:IAO_0000118>leopard danio</obo:IAO_0000118>
         <obo:IAO_0000118>zebra danio</obo:IAO_0000118>
         <obo:IAO_0000118>zebra fish</obo:IAO_0000118>
-        <obo:IAO_0000118>Brachydanio rerio</obo:IAO_0000118>
-        <obo:IAO_0000118>Danio rerio frankei</obo:IAO_0000118>
-        <obo:IAO_0000118>Brachydanio rerio frankei</obo:IAO_0000118>
-        <obo:IAO_0000118>leopard danio</obo:IAO_0000118>
         <obo:IAO_0000118>zebrafish</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Danio rerio</rdfs:label>
     </owl:Class>
     
 
@@ -723,15 +733,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8355">
-        <rdfs:label>Xenopus laevis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000518"/>
         <obo:IAO_0000111>Xenopus laevis</obo:IAO_0000111>
         <obo:IAO_0000118>African clawed frog</obo:IAO_0000118>
-        <obo:IAO_0000118>clawed frog</obo:IAO_0000118>
-        <obo:IAO_0000118>platanna</obo:IAO_0000118>
-        <obo:IAO_0000118>common platanna</obo:IAO_0000118>
         <obo:IAO_0000118>Bufo laevis</obo:IAO_0000118>
+        <obo:IAO_0000118>clawed frog</obo:IAO_0000118>
+        <obo:IAO_0000118>common platanna</obo:IAO_0000118>
+        <obo:IAO_0000118>platanna</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Xenopus laevis</rdfs:label>
     </owl:Class>
     
 
@@ -739,18 +749,18 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_90370 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90370">
-        <rdfs:label>Salmonella enterica subsp. enterica serovar Typhi</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Salmonella typhi</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella enterica serovar Typhi</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella enterica serotype Typhi</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella enterica ser. typhi</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella choleraesuis serovar Typhi</obo:IAO_0000118>
-        <obo:IAO_0000118>Bacillus typhi</obo:IAO_0000118>
         <obo:IAO_0000111>Salmonella enterica subsp. enterica serovar Typhi</obo:IAO_0000111>
-        <obo:IAO_0000118>Salmonella choleraesuis typhi</obo:IAO_0000118>
+        <obo:IAO_0000118>Bacillus typhi</obo:IAO_0000118>
         <obo:IAO_0000118>Bacterium (subgen. Eberthella) typhi</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella choleraesuis serovar Typhi</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella choleraesuis typhi</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella enterica ser. typhi</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella enterica serotype Typhi</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella enterica serovar Typhi</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella typhi</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Salmonella enterica subsp. enterica serovar Typhi</rdfs:label>
     </owl:Class>
     
 
@@ -758,19 +768,19 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_90371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90371">
-        <rdfs:label>Salmonella enterica subsp. enterica serovar Typhimurium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000364"/>
-        <obo:IAO_0000118>Salmonella enterica serotype Typhimurium</obo:IAO_0000118>
         <obo:IAO_0000111>Salmonella enterica subsp. enterica serovar Typhimurium</obo:IAO_0000111>
         <obo:IAO_0000118>Bacillus typhimurium</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella enterica ser. typhimurium</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella enterica 1,4,[5],12,:i:1,2</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella typhi-murium</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella enterica serovar Typhimurium</obo:IAO_0000118>
         <obo:IAO_0000118>Salmonella choleraesuis serotype typhimurium</obo:IAO_0000118>
-        <obo:IAO_0000118>Salmonella typhimurium</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella enterica 1,4,[5],12,:i:1,2</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella enterica ser. typhimurium</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella enterica serotype Typhimurium</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella enterica serovar Typhimurium</obo:IAO_0000118>
         <obo:IAO_0000118>Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:1,2</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella typhi-murium</obo:IAO_0000118>
+        <obo:IAO_0000118>Salmonella typhimurium</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Salmonella enterica subsp. enterica serovar Typhimurium</rdfs:label>
     </owl:Class>
     
 
@@ -778,19 +788,19 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9541 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9541">
-        <rdfs:label>Macaca fascicularis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
-        <obo:IAO_0000118>Simia fascicularis</obo:IAO_0000118>
-        <obo:IAO_0000118>cynomolgus monkey</obo:IAO_0000118>
-        <obo:IAO_0000118>crab-eating macaque</obo:IAO_0000118>
-        <obo:IAO_0000118>cynomolgus monkeys</obo:IAO_0000118>
         <obo:IAO_0000111>Macaca fascicularis</obo:IAO_0000111>
-        <obo:IAO_0000118>crab eating macaque</obo:IAO_0000118>
-        <obo:IAO_0000118>Macaca irus</obo:IAO_0000118>
         <obo:IAO_0000118>Macaca cynomolgus</obo:IAO_0000118>
-        <obo:IAO_0000118>long-tailed macaque</obo:IAO_0000118>
+        <obo:IAO_0000118>Macaca irus</obo:IAO_0000118>
+        <obo:IAO_0000118>Simia fascicularis</obo:IAO_0000118>
+        <obo:IAO_0000118>crab eating macaque</obo:IAO_0000118>
+        <obo:IAO_0000118>crab-eating macaque</obo:IAO_0000118>
         <obo:IAO_0000118>cynomolgus macaque</obo:IAO_0000118>
+        <obo:IAO_0000118>cynomolgus monkey</obo:IAO_0000118>
+        <obo:IAO_0000118>cynomolgus monkeys</obo:IAO_0000118>
+        <obo:IAO_0000118>long-tailed macaque</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Macaca fascicularis</rdfs:label>
     </owl:Class>
     
 
@@ -798,11 +808,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
-        <rdfs:label>Homo sapiens</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
         <obo:IAO_0000111>Homo sapiens</obo:IAO_0000111>
         <obo:IAO_0000118>human</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Homo sapiens</rdfs:label>
     </owl:Class>
     
 
@@ -810,15 +820,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9615">
-        <rdfs:label>Canis lupus familiaris</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
-        <obo:IAO_0000118>Canis familiaris</obo:IAO_0000118>
-        <obo:IAO_0000118>Canis domesticus</obo:IAO_0000118>
-        <obo:IAO_0000118>Canis canis</obo:IAO_0000118>
         <obo:IAO_0000111>Canis lupus familiaris</obo:IAO_0000111>
-        <obo:IAO_0000118>dogs</obo:IAO_0000118>
+        <obo:IAO_0000118>Canis canis</obo:IAO_0000118>
+        <obo:IAO_0000118>Canis domesticus</obo:IAO_0000118>
+        <obo:IAO_0000118>Canis familiaris</obo:IAO_0000118>
         <obo:IAO_0000118>dog</obo:IAO_0000118>
+        <obo:IAO_0000118>dogs</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Canis lupus familiaris</rdfs:label>
     </owl:Class>
     
 
@@ -826,15 +836,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9796 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9796">
-        <rdfs:label>Equus caballus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
-        <obo:IAO_0000118>Equus przewalskii forma caballus</obo:IAO_0000118>
-        <obo:IAO_0000118>Equus przewalskii f. caballus</obo:IAO_0000118>
-        <obo:IAO_0000118>domestic horse</obo:IAO_0000118>
         <obo:IAO_0000111>Equus caballus</obo:IAO_0000111>
-        <obo:IAO_0000118>horse</obo:IAO_0000118>
+        <obo:IAO_0000118>Equus przewalskii f. caballus</obo:IAO_0000118>
+        <obo:IAO_0000118>Equus przewalskii forma caballus</obo:IAO_0000118>
+        <obo:IAO_0000118>domestic horse</obo:IAO_0000118>
         <obo:IAO_0000118>equine</obo:IAO_0000118>
+        <obo:IAO_0000118>horse</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Equus caballus</rdfs:label>
     </owl:Class>
     
 
@@ -842,14 +852,14 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9823 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
-        <rdfs:label>Sus scrofa</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
-        <obo:IAO_0000118>pig</obo:IAO_0000118>
         <obo:IAO_0000111>Sus scrofa</obo:IAO_0000111>
+        <obo:IAO_0000118>pig</obo:IAO_0000118>
+        <obo:IAO_0000118>pigs</obo:IAO_0000118>
         <obo:IAO_0000118>swine</obo:IAO_0000118>
         <obo:IAO_0000118>wild boar</obo:IAO_0000118>
-        <obo:IAO_0000118>pigs</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Sus scrofa</rdfs:label>
     </owl:Class>
     
 
@@ -857,20 +867,20 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
-        <rdfs:label>Bos taurus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000362"/>
-        <obo:IAO_0000118>oxen</obo:IAO_0000118>
-        <obo:IAO_0000118>bovine</obo:IAO_0000118>
-        <obo:IAO_0000118>dairy cow</obo:IAO_0000118>
-        <obo:IAO_0000118>Bos primigenius taurus</obo:IAO_0000118>
-        <obo:IAO_0000118>ox</obo:IAO_0000118>
-        <obo:IAO_0000118>cow</obo:IAO_0000118>
-        <obo:IAO_0000118>cattle</obo:IAO_0000118>
-        <obo:IAO_0000118>domestic cattle</obo:IAO_0000118>
-        <obo:IAO_0000118>domestic cow</obo:IAO_0000118>
         <obo:IAO_0000111>Bos taurus</obo:IAO_0000111>
         <obo:IAO_0000118>Bos bovis</obo:IAO_0000118>
+        <obo:IAO_0000118>Bos primigenius taurus</obo:IAO_0000118>
+        <obo:IAO_0000118>bovine</obo:IAO_0000118>
+        <obo:IAO_0000118>cattle</obo:IAO_0000118>
+        <obo:IAO_0000118>cow</obo:IAO_0000118>
+        <obo:IAO_0000118>dairy cow</obo:IAO_0000118>
+        <obo:IAO_0000118>domestic cattle</obo:IAO_0000118>
+        <obo:IAO_0000118>domestic cow</obo:IAO_0000118>
+        <obo:IAO_0000118>ox</obo:IAO_0000118>
+        <obo:IAO_0000118>oxen</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Bos taurus</rdfs:label>
     </owl:Class>
     
 
@@ -936,5 +946,5 @@
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
