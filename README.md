@@ -8,11 +8,11 @@ This repository serves as the development and demonstration branch accompanying 
 Repository Contents:
 The repository includes a modularized release of BAO, organized as follows:
 - bao_complete.owl – Main ontology file that imports all BAO modules and external ontologies.
-bao_core.owl – Core BAO module with foundational classes and relations.
-bao_module_*.owl – Thematic modules for biology, properties, vocabularies, etc.
-bao_vocabulary_*.owl – Domain-specific vocabularies (e.g., assay, detection, computational methods, instruments, materials, organizations, people, units).
-bao_external.owl – Imports of external ontologies (ChEBI, CLO, DOID, EFO, GO, UBERON, etc.) for cross-domain alignment.
-BAO_*_import.owl – Individual import files for referenced external ontologies.
+- bao_core.owl – Core BAO module with foundational classes and relations.
+- bao_module_*.owl – Thematic modules for biology, properties, vocabularies, etc.
+- bao_vocabulary_*.owl – Domain-specific vocabularies (e.g., assay, detection, computational methods, instruments, materials, organizations, people, units).
+- bao_external.owl – Imports of external ontologies (ChEBI, CLO, DOID, EFO, GO, UBERON, etc.) for cross-domain alignment.
+- BAO_*_import.owl – Individual import files for referenced external ontologies.
 Together, these files provide a complete, interoperable ontology package for use in semantic annotation, reasoning, and ontology-driven data integration.
 
 How to Use
