@@ -7,7 +7,7 @@ This repository serves as the development and demonstration branch accompanying 
 
 Repository Contents:
 The repository includes a modularized release of BAO, organized as follows:
-bao_complete.owl – Main ontology file that imports all BAO modules and external ontologies.
+- bao_complete.owl – Main ontology file that imports all BAO modules and external ontologies.
 bao_core.owl – Core BAO module with foundational classes and relations.
 bao_module_*.owl – Thematic modules for biology, properties, vocabularies, etc.
 bao_vocabulary_*.owl – Domain-specific vocabularies (e.g., assay, detection, computational methods, instruments, materials, organizations, people, units).
