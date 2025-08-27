@@ -5,7 +5,6 @@ This repository contains the BioAssay Ontology (BAO) files prepared for the 16th
 Overview and Purpose:
 This repository serves as the development and demonstration branch accompanying the ICBO-2025 use case publication. It provides ontology files that can be explored in Protégé to reproduce the reasoning examples presented in the manuscript.
 
-Repository Contents:
 The repository includes a modularized release of BAO, organized as follows:
 - bao_complete.owl – Main ontology file that imports all BAO modules and external ontologies.
 - bao_core.owl – Core BAO module with foundational classes and relations.
@@ -16,7 +15,7 @@ The repository includes a modularized release of BAO, organized as follows:
 
 Together, these files provide a complete, interoperable ontology package for use in semantic annotation, reasoning, and ontology-driven data integration.
 
-How to Use
+How to Use:
 1. Download the repository (clone or zip download) to your local machine.
 2. Place all ontology files in the same folder to preserve import resolution.
 3. Open bao_complete.owl in Protégé
