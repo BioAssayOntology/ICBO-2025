@@ -1,0 +1,2734 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.bioassayontology.org/bao/external/BAO_GO_import.owl#"
+     xml:base="http://www.bioassayontology.org/bao/external/BAO_GO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.bioassayontology.org/bao/external/BAO_GO_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <oboInOwl:hasDbXref>IAO:0000233</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>term_tracker_item</oboInOwl:id>
+        <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>term_tracker_item</oboInOwl:shorthand>
+        <rdfs:label>term tracker item</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <rdfs:label>term replaced by</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider">
+        <rdfs:label>consider</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051318"/>
+        <obo:IAO_0000115>The cell cycle &apos;gap&apos; phase which is the interval between the completion of DNA segregation by mitosis and the beginning of DNA synthesis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>G1 phase of mitotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000080</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>mitotic G1 phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051320"/>
+        <obo:IAO_0000115>The cell cycle phase, following G1, during which DNA synthesis takes place as part of a mitotic cell cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>S phase of mitotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>S-phase of mitotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000084</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>mitotic S phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051319"/>
+        <obo:IAO_0000115>The cell cycle &apos;gap&apos; phase which is the interval between the completion of DNA synthesis and the beginning of DNA segregation by mitosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>G2 phase of mitotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000085</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>mitotic G2 phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000279"/>
+        <obo:IAO_0000115>A cell cycle phase during which nuclear division occurs, and which is comprises the phases: prophase, metaphase, anaphase and telophase and occurs as part of a mitotic cell cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>M phase of mitotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>M-phase of mitotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000087</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>mitotic M phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006606"/>
+        <obo:IAO_0000115>OBSOLETE. The directed movement of a MAP kinase to the nucleus upon activation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:consider>GO:0006606</oboInOwl:consider>
+        <oboInOwl:hasNarrowSynonym>nuclear translocation of MAPK</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000189</oboInOwl:id>
+        <rdfs:comment>The reason for obsoletion is that all proteins are imported into the nucleus via the same mechanism, so the import of individual proteins should be captured with extensions or by GO-CAM models.</rdfs:comment>
+        <rdfs:label>obsolete MAPK import into nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007049"/>
+        <obo:IAO_0000115>Progression through the phases of the mitotic cell cycle, the most common eukaryotic cell cycle, which canonically comprises four successive phases called G1, S, G2, and M and includes replication of the genome and the subsequent segregation of chromosomes into daughter cells. In some variant cell cycles nuclear replication or nuclear division may not be followed by cell division, or G1 and G2 phases may be absent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0007067</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Mitosis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>mitosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0000278</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:comment>Note that this term should not be confused with &apos;GO:0140014 ; mitotic nuclear division&apos;. &apos;GO:0000278 ; mitotic cell cycle represents the entire mitotic cell cycle, while &apos;GO:0140014 ; mitotic nuclear division&apos; specifically represents the actual nuclear division step of the mitotic cell cycle.</rdfs:comment>
+        <rdfs:label>mitotic cell cycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022403"/>
+        <obo:IAO_0000115>A cell cycle phase during which nuclear division occurs, and which is comprises the phases: prophase, metaphase, anaphase and telophase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:M_phase</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>M-phase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000279</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>M phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a reactive oxygen species stimulus. Reactive oxygen species include singlet oxygen, superoxide, and oxygen free radicals.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>response to AOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>response to ROI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>response to ROS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>response to active oxygen species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>response to reactive oxidative species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>response to reactive oxygen intermediate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000302</oboInOwl:id>
+        <rdfs:label>response to reactive oxygen species</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process of generating multiple mRNA molecules from a given set of exons by differential use of exons from the primary transcript(s) to form multiple mature mRNAs that vary in their exon composition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasBroadSynonym>splice site selection</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>alternative nuclear mRNA splicing, via spliceosome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000380</oboInOwl:id>
+        <rdfs:comment>Note that this process most commonly occurs in cis, selecting or skipping exons from the same primary transcript, but it has also been observed to occur in trans at low frequency, at least in some mammals.</rdfs:comment>
+        <rdfs:label>alternative mRNA splicing, via spliceosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000786">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A complex comprised of DNA wound around a multisubunit core and associated proteins, which forms the primary packing unit of DNA into higher order structures.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0000787</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0000788</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0005718</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Nucleosome</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>cytoplasmic nucleosome</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>nuclear nucleosome</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000786</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:label>nucleosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0023052"/>
+        <obo:IAO_0000115>Combining with the neurotransmitter dopamine and activating adenylate cyclase via coupling to Gs to initiate a change in cell activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0001589</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0001590</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasNarrowSynonym>dopamine D1 receptor activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>dopamine D5 receptor activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0001588</oboInOwl:id>
+        <rdfs:label>dopamine neurotransmitter receptor activity, coupled via Gs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0004872"/>
+        <obo:IAO_0000115>Combining with the neurotransmitter dopamine and activating adenylate cyclase via coupling to Gi/Go to initiate a change in cell activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0001592</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0001593</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0001670</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasNarrowSynonym>dopamine D2 receptor activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>dopamine D3 receptor activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>dopamine D4 receptor activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0001591</oboInOwl:id>
+        <rdfs:label>dopamine neurotransmitter receptor activity, coupled via Gi/Go</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating lowered oxygen tension. Hypoxia, defined as a decline in O2 levels below normoxic levels of 20.8 - 20.95%, results in metabolic adaptation at both the cellular and organismal level.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>response to hypoxic stress</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>response to lowered oxygen tension</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>response to intermittent hypoxia</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>response to sustained hypoxia</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0001666</oboInOwl:id>
+        <rdfs:comment>Note that this term should not be confused with &apos;response to anoxia ; GO:0034059&apos;. Note that in laboratory studies, hypoxia is typically studied at O2 concentrations ranging from 0.1 - 5%.</rdfs:comment>
+        <rdfs:label>response to hypoxia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The appearance of a cytokine due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/19116</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0042032</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0042089</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0042107</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0050663</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasNarrowSynonym>cytokine biosynthetic process</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cytokine metabolic process</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cytokine secretion</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>interferon production</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>interferon secretion</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>interleukin production</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>interleukin secretion</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0001816</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:comment>Note that this term is intended for use when a gene product is seen to cause apparent increases in intracellular or extracellular cytokine levels, without specific regard as to whether the increase is due to increased biosynthesis, increased secretion of preexisting cytokine molecules, or increased conversion from precursor molecules.</rdfs:comment>
+        <rdfs:label>cytokine production</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>OBSOLETE. The directed movement of a steroid hormone receptor into the nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:consider>GO:0006606</oboInOwl:consider>
+        <oboInOwl:consider>GO:0042306</oboInOwl:consider>
+        <oboInOwl:created_by>hjd</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-07-09T02:34:42Z</oboInOwl:creation_date>
+        <oboInOwl:hasNarrowSynonym>steroid hormone receptor nuclear translocation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002146</oboInOwl:id>
+        <rdfs:comment>The reason for obsoletion is that all proteins are imported into the nucleus via the same mechanism, so the import of individual proteins should be captured with extensions or by GO-CAM models.</rdfs:comment>
+        <rdfs:label>obsolete steroid hormone receptor import into nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>OBSOLETE. The directed movement of a glucocorticoid receptor into the nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:consider>GO:0042306</oboInOwl:consider>
+        <oboInOwl:created_by>hjd</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-07-09T02:36:09Z</oboInOwl:creation_date>
+        <oboInOwl:hasNarrowSynonym>glucocorticoid receptor nuclear translocation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002147</oboInOwl:id>
+        <rdfs:comment>The reason for obsoletion is that all proteins are imported into the nucleus via the same mechanism, so the import of individual proteins should be captured with extensions or by GO-CAM models.</rdfs:comment>
+        <rdfs:label>obsolete glucocorticoid receptor import into nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process in which a relatively unspecialized myeloid precursor cell acquires the specialized features of a thrombocyte, a nucleated cell found in all vertebrates but mammals involved in hemostasis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002574</oboInOwl:id>
+        <rdfs:comment>Note that platelets are the non-nucleated mammalian functional equivalent of the nucleated thrombocytes of non-mammalian vertebrates and are sometimes also referred to as thrombocytes. Platelet formation in mammals is covered by the biological_process term platelet formation ; GO:0030220.</rdfs:comment>
+        <rdfs:label>thrombocyte differentiation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate, or extent of an acute inflammatory response.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002673</oboInOwl:id>
+        <rdfs:label>regulation of acute inflammatory response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003824">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000115>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Enzyme</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>enzyme activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0003824</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>catalytic activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003924">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Catalysis of the reaction: GTP + H2O = GDP + phosphate.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/19078</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>dph</oboInOwl:created_by>
+        <oboInOwl:creation_date>2015-11-11T12:47:56Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>GO:0061745</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>hydrolase activity, acting on acid anhydrides, acting on GTP, involved in cellular and subcellular movement</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>RHEA:19669</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1445143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1458485</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-156923</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-164381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-165055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-167415</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-170666</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-170685</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-170686</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-177501</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-203973</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2130641</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2130725</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2584246</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-380979</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-392133</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-392212</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-418574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-418582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-421835</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-428941</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-432707</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5333615</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5389839</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5389842</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5419273</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5419279</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-555065</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5623513</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5638006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5658231</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5665809</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5672017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5694527</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6807877</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6814833</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8847534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8847883</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8849082</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8854173</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8854255</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8854329</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8854604</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8854612</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8868661</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8981353</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8982020</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8982021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8982025</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9640195</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9645598</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9649736</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-983422</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>ARF small monomeric GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>RHEB small monomeric GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Rab small monomeric GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Ran small monomeric GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Ras small monomeric GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Rho small monomeric GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Sar small monomeric GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>dynamin GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>heterotrimeric G-protein GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein-synthesizing GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein-synthesizing GTPase activity, elongation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein-synthesizing GTPase activity, initiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein-synthesizing GTPase activity, termination</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>signal-recognition-particle GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>small monomeric GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>tubulin GTPase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>GTPase activity, coupled</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>heterotrimeric G-protein GTPase, alpha-subunit</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>heterotrimeric G-protein GTPase, beta-subunit</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>heterotrimeric G-protein GTPase, gamma-subunit</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0003924</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>GTPase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_0038023"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0004872"/>
+        <obo:IAO_0000115>Combining with epinephrine or norepinephrine to initiate a change in cell activity via activation of a G protein, with pharmacological characteristics of beta-adrenergic receptors; the activity involves transmitting the signal to the Gs alpha subunit of a heterotrimeric G protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>beta adrenoceptor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0004939</oboInOwl:id>
+        <rdfs:label>beta-adrenergic receptor activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005515"/>
+        <obo:IAO_0000115>Interacting selectively and non-covalently with one or more specific sites on a receptor molecule, a macromolecule that undergoes combination with a hormone, neurotransmitter, drug or intracellular messenger to initiate a change in cell function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasBroadSynonym>receptor binding</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Ligand_(biochemistry)</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>receptor ligand</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>receptor-associated protein activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0005102</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:comment>Where appropriate, also consider annotating to &apos;receptor agonist activity ; GO:0048018&apos;.</rdfs:comment>
+        <rdfs:label>signaling receptor binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000115>The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Binding_(molecular)</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>ligand</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005488</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct, manual gene product annotation. Please choose a more specific child term, or request a new one if no suitable term is available. For ligands that bind to signal transducing receptors, consider the molecular function term &apos;receptor binding ; GO:0005102&apos; and its children.</rdfs:comment>
+        <rdfs:label>binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005488"/>
+        <obo:IAO_0000115>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0001948</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0045308</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>protein amino acid binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>glycoprotein binding</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005515</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>protein binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell&apos;s chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1702920020</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Cell_nucleus</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cell nucleus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>horsetail nucleus</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005634</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>nucleus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>The double lipid bilayer enclosing the nucleus and separating its contents from the rest of the cytoplasm; includes the intermembrane space, a gap of width 20-40 nm (also called the perinuclear space).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0005636</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Nuclear_envelope</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005635</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>nuclear envelope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>All of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Cytoplasm</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005737</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>cytoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1860313010</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Mitochondrion</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mitochondria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005739</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:comment>Some anaerobic or microaerophilic organisms (e.g. Entamoeba histolytica, Giardia intestinalis and several Microsporidia species) do not have mitochondria, and contain mitochondrion-related organelles (MROs) instead, called mitosomes or hydrogenosomes, very likely derived from mitochondria. To annotate gene products located in these mitochondrial relics in species such as Entamoeba histolytica, Giardia intestinalis or others, please use GO:0032047 &apos;mitosome&apos; or GO:0042566 &apos;hydrogenosome&apos;. (See PMID:24316280 for a list of species currently known to contain mitochondrion-related organelles.)</rdfs:comment>
+        <rdfs:label>mitochondrion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005764">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A small lytic vacuole that has cell cycle-independent morphology and is found in most animal cells and that contains a variety of hydrolases, most of which have their maximal activities in the pH range 5-6. The contained enzymes display latency if properly isolated. About 40 different lysosomal hydrolases are known and lysosomes have a great variety of morphologies and functions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao585356902</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Lysosome</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005764</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>lysosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A double-membrane-bounded compartment that engulfs endogenous cellular material as well as invading microorganisms to target them to the lytic vacuole/lysosome for degradation as part of macroautophagy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao8663416959</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>autophagic vacuole</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>initial autophagic vacuole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0005776</oboInOwl:id>
+        <rdfs:label>autophagosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005783">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>The irregular network of unit membranes, visible only by electron microscopy, that occurs in the cytoplasm of many eukaryotic cells. The membranes form a complex meshwork of tubular channels, which are often expanded into slitlike cavities called cisternae. The ER takes two forms, rough (or granular), with ribosomes adhering to the outer surface, and smooth (with no ribosomes attached).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1036339110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Endoplasmic_reticulum</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ER</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005783</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>endoplasmic reticulum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A membrane-bound cytoplasmic organelle of the endomembrane system that further processes the core oligosaccharides (e.g. N-glycans) added to proteins in the endoplasmic reticulum and packages them into membrane-bound vesicles. The Golgi apparatus operates at the intersection of the secretory, lysosomal, and endocytic pathways.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasBroadSynonym>Golgi</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao451912436</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Golgi_apparatus</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Golgi complex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>Golgi ribbon</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005794</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:comment>Note that the Golgi apparatus can be located in various places in the cytoplasm. In plants and lower animal cells, the Golgi apparatus exists as many copies of discrete stacks dispersed throughout the cytoplasm, while the Golgi apparatus of interphase mammalian cells is a juxtanuclear, often pericentriolar reticulum, where the discrete Golgi stacks are stitched together to form a compact and interconnected ribbon, sometimes called the Golgi ribbon.</rdfs:comment>
+        <rdfs:label>Golgi apparatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005829 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005829">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao101633890</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Cytosol</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005829</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>cytosol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005886">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0005904</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>juxtamembrane</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1663586795</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Cell_membrane</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cell membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cellular membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cytoplasmic membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>plasmalemma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>bacterial inner membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>inner endospore membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>plasma membrane lipid bilayer</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005886</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>plasma membrane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:DNA_repair</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006281</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>DNA repair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
+        <obo:IAO_0000115>The cellular synthesis of RNA on a template of DNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0006350</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0061018</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0061022</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>cellular transcription</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>transcription</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Transcription_(genetics)</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>DNA-dependent transcription</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cellular transcription, DNA-dependent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>transcription, DNA-dependent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>transcription regulator activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0006351</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
+        <rdfs:label>transcription, DNA-templated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of cellular DNA-templated transcription.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0032583</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0045449</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0061019</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>transcriptional control</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>regulation of cellular transcription, DNA-dependent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of transcription, DNA-dependent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>regulation of gene-specific transcription</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0006355</oboInOwl:id>
+        <rdfs:label>regulation of transcription, DNA-templated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
+        <obo:IAO_0000115>The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA or circRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA or circRNA. Translation ends with the release of a polypeptide chain from the ribosome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0006416</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0006453</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0043037</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Translation_(genetics)</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>protein anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein biosynthetic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein translation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006412</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>translation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of proteins by the translation of mRNA or circRNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0006445</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>regulation of protein anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of protein biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of protein formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of protein synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006417</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>regulation of translation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process of introducing a phosphate group on to a protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>protein amino acid phosphorylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006468</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>protein phosphorylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process of removing one or more phosphoric residues from a protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>protein amino acid dephosphorylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006470</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:label>protein dephosphorylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The directed movement of a protein from the cytoplasm to the nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>establishment of protein localization to nucleus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein import into cell nucleus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein nucleus import</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein transport from cytoplasm to nucleus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006606</oboInOwl:id>
+        <rdfs:label>protein import into nucleus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006821">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The directed movement of chloride into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006821</oboInOwl:id>
+        <rdfs:label>chloride transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006914 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006914">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The cellular catabolic process in which cells digest parts of their own cytoplasm; allows for both recycling of macromolecular constituents under conditions of cellular stress and remodeling the intracellular structure for cell differentiation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0016238</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Autophagy_(cellular)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006914</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
+        <rdfs:label>autophagy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006915">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A programmed cell death process which begins when a cell receives an internal (e.g. DNA damage) or external signal (e.g. an extracellular death ligand), and proceeds through a series of biochemical events (signaling pathway phase) which trigger an execution phase. The execution phase is the last step of an apoptotic process, and is typically characterized by rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), plasma membrane blebbing and fragmentation of the cell into apoptotic bodies. When the execution phase is completed, the cell has died.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
+        <oboInOwl:hasAlternativeId>GO:0006917</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0008632</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>cell suicide</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>cellular suicide</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Apoptosis</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>apoptotic cell death</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>apoptotic programmed cell death</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>programmed cell death by apoptosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>activation of apoptosis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>apoptosis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>apoptosis signaling</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>apoptotic program</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>type I programmed cell death</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>apoptosis activator activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>caspase-dependent programmed cell death</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>commitment to apoptosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>induction of apoptosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>induction of apoptosis by p53</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>signaling (initiator) caspase activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0006915</oboInOwl:id>
+        <rdfs:label>apoptotic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006950">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>response to abiotic stress</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>response to biotic stress</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0006950</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.</rdfs:comment>
+        <rdfs:label>response to stress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006954">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasBroadSynonym>inflammation</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Inflammation</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006954</oboInOwl:id>
+        <rdfs:label>inflammatory response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Cell_cycle</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cell-division cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0007049</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>cell cycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A regulatory process that halts progression through the cell cycle during one of the normal phases (G1, S, G2, M).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>arrest of cell cycle progression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cessation of cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>termination of cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0007050</oboInOwl:id>
+        <rdfs:label>cell cycle arrest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0023033</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Signal_transduction</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>signaling cascade</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>signalling cascade</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>signaling pathway</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>signalling pathway</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0007165</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:comment>Note that signal transduction is defined broadly to include a ligand interacting with a receptor, downstream signaling steps and a response being triggered. A change in form of the signal in every step is not necessary. Note that in many cases the end of this process is regulation of the initiation of transcription. Note that specific transcription factors may be annotated to this term, but core/general transcription machinery such as RNA polymerase should not.</rdfs:comment>
+        <rdfs:label>signal transduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A series of molecular signals that proceeds with an activated receptor promoting the exchange of GDP for GTP on the alpha-subunit of an associated heterotrimeric G-protein complex. The GTP-bound activated alpha-G-protein then dissociates from the beta- and gamma-subunits to further transmit the signal within the cell. The pathway begins with receptor-ligand interaction, or for basal GPCR signaling the pathway begins with the receptor activating its G protein in the absence of an agonist, and ends with regulation of a downstream cellular process, e.g. transcription.  The pathway can start from the plasma membrane, Golgi or nuclear membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0038042</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>G protein coupled receptor protein signaling pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>G protein coupled receptor protein signalling pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>G-protein coupled receptor protein signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>G-protein coupled receptor protein signaling pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>G-protein coupled receptor signalling pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>G-protein-coupled receptor protein signalling pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GPCR signaling pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GPCR signalling pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>G-protein coupled receptor signaling pathway via GPCR dimer</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>dimeric G-protein coupled receptor signaling pathway</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>dimeric G-protein coupled receptor signalling pathway</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0007186</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <rdfs:label>G protein-coupled receptor signaling pathway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process in which STAT proteins (Signal Transducers and Activators of Transcription) and JAK (Janus Activated Kinase) proteins convey a signal to trigger a change in the activity or state of a cell. The receptor signaling pathway via JAK-STAT begins with activation of a receptor and proceeeds through STAT protein activation by members of the JAK family of tyrosine kinases. STAT proteins dimerize and subsequently translocate to the nucleus. The pathway ends with regulation of target gene expression by STAT proteins.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:JAK-STAT_signaling_pathway</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>JAK-STAT signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>JAK-STAT cascade</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0007259</oboInOwl:id>
+        <rdfs:label>receptor signaling pathway via JAK-STAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The regulated release of neurotransmitter from the presynapse into the synaptic cleft via calcium-regulated exocytosis during synaptic transmission.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0010554</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>neurotransmitter release</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neurotransmitter secretory pathway</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0007269</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse"/>
+        <rdfs:comment>A neurotransmitter is any of a group of substances that are released on excitation from the axon terminal of a presynaptic neuron of the central or peripheral nervous system and travel across the synaptic cleft to either excite or inhibit the target cell. Among the many substances that have the properties of a neurotransmitter are acetylcholine, noradrenaline, adrenaline, dopamine, glycine, gamma-aminobutyrate, glutamic acid, substance P, enkephalins, endorphins and serotonin.</rdfs:comment>
+        <rdfs:label>neurotransmitter secretion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any biological process in an organism that recurs with a regularity of approximately 24 hours.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0050895</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Circadian_rhythm</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>circadian process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>circadian response</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>response to circadian rhythm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0007623</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>circadian rhythm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005488"/>
+        <obo:IAO_0000115>Interacting selectively and non-covalently with a drug, any naturally occurring or synthetic substance, other than a nutrient, that, when administered or applied to an organism, affects the structure or functioning of the organism; in particular, any such substance used in the diagnosis, prevention, or treatment of disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0008144</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:label>drug binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any biological process that results in permanent cessation of all vital functions of a cell. A cell should be considered dead when any one of the following molecular or morphological criteria is met: (1) the cell has lost the integrity of its plasma membrane; (2) the cell, including its nucleus, has undergone complete fragmentation into discrete bodies (frequently referred to as apoptotic bodies). The cell corpse (or its fragments) may be engulfed by an adjacent cell in vivo, but engulfment of whole cells should not be considered a strict criteria to define cell death as, under some circumstances, live engulfed cells can be released from phagosomes (see PMID:18045538).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>accidental cell death</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>necrosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0008219</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:comment>This term should not be used for direct annotation. The only exception should be when experimental data (e.g., staining with trypan blue or propidium iodide) show that cell death has occurred, but fail to provide details on death modality (accidental versus programmed). When information is provided on the cell death mechanism, annotations should be made to the appropriate descendant of &apos;cell death&apos; (such as, but not limited to, GO:0097300 &apos;programmed necrotic cell death&apos; or GO:0006915 &apos;apoptotic process&apos;). Also, if experimental data suggest that a gene product influences cell death indirectly, rather than being involved in the death process directly, consider annotating to a &apos;regulation&apos; term.</rdfs:comment>
+        <rdfs:label>cell death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The multiplication or reproduction of cells, resulting in the expansion of a cell population.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>cell proliferation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0008283</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:comment>This term was moved out from being a child of &apos;cellular process&apos; because it is a cell population-level process, and cellular processes are restricted to those processes that involve individual cells. Also note that this term is intended to be used for the proliferation of cells within a multicellular organism, not for the expansion of a population of single-celled organisms.</rdfs:comment>
+        <rdfs:label>cell population proliferation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The chemical reactions and pathways resulting in the breakdown of a fatty acid, any of the aliphatic monocarboxylic acids that can be liberated by hydrolysis from naturally occurring fats and oils. Fatty acids are predominantly straight-chain acids of 4 to 24 carbon atoms, which may be saturated or unsaturated; branched fatty acids and hydroxy fatty acids also occur, and very long chain acids of over 30 carbons are found in waxes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Fatty_acid_degradation</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>fatty acid breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fatty acid catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fatty acid degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0009062</oboInOwl:id>
+        <rdfs:label>fatty acid catabolic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The cell-cell signaling process in which single-celled organisms carry out coordinated responses by monitoring their own population density, and often also that of other microbes, by producing small, diffusible, signal molecules, detecting the concentration of these molecules, and triggering a signal transduction pathway when a certain threshold is reached. Quorum sensing can occur amongst microbial communities in the environment or within host organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0010699</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0060247</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Quorum_sensing</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>quorum sensing system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>cell-cell signaling involved in quorum sensing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>detection of cell density by secreted molecule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0009372</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:label>quorum sensing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009986">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>The external part of the cell wall and/or plasma membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0009928</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0009929</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>cell associated</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cell bound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0009986</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:comment>Note that this term is intended to annotate gene products that are attached (integrated or loosely bound) to the plasma membrane or cell wall.</rdfs:comment>
+        <rdfs:label>cell surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010467">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process in which a gene&apos;s sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Gene_expression</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0010467</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <rdfs:label>gene expression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of gene expression. Gene expression is the process in which a gene&apos;s coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Regulation_of_gene_expression</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>regulation of protein expression</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>regulation of gene product expression</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0010468</oboInOwl:id>
+        <rdfs:comment>This class covers any process that regulates the rate of production of a mature gene product, and so includes processes that regulate that rate by regulating the level, stability or availability of intermediates in the process of gene expression.  For example, it covers any process that regulates the level, stability or availability of mRNA or circRNA for translation and thereby regulates the rate of production of the encoded protein via translation.</rdfs:comment>
+        <rdfs:label>regulation of gene expression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A series of reactions, mediated by the intracellular serine/threonine kinase protein kinase A, which occurs as a result of a single trigger reaction or compound.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>protein kinase A signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>PKA signaling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>protein kinase A signaling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>protein kinase A signalling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0010737</oboInOwl:id>
+        <rdfs:label>protein kinase A signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010884">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that increases the rate, frequency or extent of lipid storage. Lipid storage is the accumulation and maintenance in cells or tissues of lipids, compounds soluble in organic solvents but insoluble or sparingly soluble in aqueous solvents. Lipid reserves can be accumulated during early developmental stages for mobilization and utilization at later stages of development.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasNarrowSynonym>positive regulation of lipid sequestration</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0010884</oboInOwl:id>
+        <rdfs:label>positive regulation of lipid storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010888">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that decreases the rate, frequency or extent of lipid storage. Lipid storage is the accumulation and maintenance in cells or tissues of lipids, compounds soluble in organic solvents but insoluble or sparingly soluble in aqueous solvents. Lipid reserves can be accumulated during early developmental stages for mobilization and utilization at later stages of development.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0010888</oboInOwl:id>
+        <rdfs:label>negative regulation of lipid storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0015893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The directed movement of a drug, a substance used in the diagnosis, treatment or prevention of a disease, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0015893</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:label>drug transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A multi-organism process in which a virus is a participant. The other participant is the host. Includes infection of a host cell, replication of the viral genome, and assembly of progeny virus particles. In some cases the viral genetic material may integrate into the host genome and only subsequently, under particular circumstances, &apos;complete&apos; its life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <oboInOwl:hasAlternativeId>GO:0022415</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Viral_life_cycle</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>virus process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>viral infection</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>virulence</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0016032</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:comment>See also the biological process terms &apos;viral infectious cycle ; GO:0019058&apos; and &apos;lysogeny ; GO:0030069&apos;.</rdfs:comment>
+        <rdfs:label>viral process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process in which double-stranded RNAs silence cognate genes. Involves posttranscriptional gene inactivation (&apos;silencing&apos;) both of transgenes or dsRNA introduced into a germline, and of the host gene(s) homologous to the transgenes or dsRNA. This silencing is triggered by the introduction of transgenes or double-stranded RNA (dsRNA), and can occur through a specific decrease in the level of mRNA, or by negative regulation of translation, of both host genes and transgenes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
+        <oboInOwl:hasDbXref>Wikipedia:RNA_interference</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>RNAi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>posttranscriptional gene silencing by siRNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0016246</oboInOwl:id>
+        <rdfs:comment>Note that this term refers specifically to posttranscriptional mechanisms by which small interfering RNAs down-regulate gene expression. Also consider annotating to other descendants of &apos;gene silencing by RNA ; GO:0031047&apos;.</rdfs:comment>
+        <rdfs:label>RNA interference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000115>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6788855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6788867</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>phosphokinase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0016301</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:comment>Note that this term encompasses all activities that transfer a single phosphate group; although ATP is by far the most common phosphate donor, reactions using other phosphate donors are included in this term.</rdfs:comment>
+        <rdfs:label>kinase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process of introducing a phosphate group into a molecule, usually with the formation of a phosphoric ester, a phosphoric anhydride or a phosphoric amide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Phosphorylation</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0016310</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <rdfs:label>phosphorylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_0044659"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process involved directly in viral genome replication, including viral nucleotide metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasBroadSynonym>viral replication</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasNarrowSynonym>sigma virus replication</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019079</oboInOwl:id>
+        <rdfs:label>viral genome replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any intracellular signal transduction in which the signal is passed on within the cell via a second messenger; a small molecule or ion that can be quickly generated or released from intracellular stores, and can diffuse within the cell. Second-messenger signaling includes production or release of the second messenger, and effectors downstream of the second messenger that further transmit the signal within the cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>second messenger mediated signaling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>second messenger mediated signalling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>second messenger-mediated signaling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>second messenger-mediated signalling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>second-messenger-mediated signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>second-messenger-mediated signalling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019932</oboInOwl:id>
+        <rdfs:label>second-messenger-mediated signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>One of the distinct periods or stages into which the cell cycle is divided. Each phase is characterized by the occurrence of specific biochemical and morphological events.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0022403</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>cell cycle phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0023014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0023014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A process in which the transfer of one or more phosphate groups to a substrate transmits a signal to the phosphorylated substrate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:creation_date>2010-02-16T09:30:50Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>signal transduction via phosphorylation event</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>signal transmission via phosphorylation event</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0023014</oboInOwl:id>
+        <rdfs:label>signal transduction by protein phosphorylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0023052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0023052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The entirety of a process in which information is transmitted within a biological system. This process begins with an active signal and ends when a cellular response has been triggered.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-02-16T09:30:50Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>GO:0023046</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0044700</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>biological signaling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>signaling process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>signalling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>signalling process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>single organism signaling</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0023052</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:comment>Note that a signal is any variable property or parameter that serves to convey information, and may be a physical entity such as a gene product or small molecule, a photon, or a change in state such as movement or voltage change.</rdfs:comment>
+        <rdfs:label>signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A thin sheetlike process extended by the leading edge of a migrating cell or extending cell process; contains a dense meshwork of actin filaments.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Lamellipodia</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0030027</oboInOwl:id>
+        <rdfs:label>lamellipodium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>blood coagulation, platelet activation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0030168</oboInOwl:id>
+        <rdfs:label>platelet activation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of cell migration.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0030334</oboInOwl:id>
+        <rdfs:label>regulation of cell migration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030424">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1770195789</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Axon</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0030424</oboInOwl:id>
+        <rdfs:label>axon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The regrowth of a lost or destroyed body part, such as an organ or tissue. This process may occur via renewal, repair, and/or growth alone (i.e. increase in size or mass).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Regeneration_(biology)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0031099</oboInOwl:id>
+        <rdfs:label>regeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The regrowth of neuronal processes such as axons or dendrites in response to their loss or damage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasNarrowSynonym>neurite regeneration</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0031102</oboInOwl:id>
+        <rdfs:label>neuron projection regeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048666"/>
+        <obo:IAO_0000115>The process whose specific outcome is the progression of a neuron projection over time, from its formation to the mature structure. A neuron projection is any process extending from a neural cell, such as axons or dendrites (collectively called neurites).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasNarrowSynonym>neurite biosynthesis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>neurite development</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>neurite formation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>neurite growth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>neurite outgrowth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0031175</oboInOwl:id>
+        <rdfs:label>neuron projection development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031690">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005102"/>
+        <obo:IAO_0000115>Interacting selectively and non-covalently with an adrenergic receptor.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasNarrowSynonym>adrenergic receptor ligand</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0031690</oboInOwl:id>
+        <rdfs:label>adrenergic receptor binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031748">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005102"/>
+        <obo:IAO_0000115>Interacting selectively and non-covalently with a D1 dopamine receptor.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>D1A dopamine receptor binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>D1 dopamine receptor ligand</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0031748</oboInOwl:id>
+        <rdfs:label>D1 dopamine receptor binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031752">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005102"/>
+        <obo:IAO_0000115>Interacting selectively and non-covalently with a D5 dopamine receptor.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>D1B dopamine receptor binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>D5 dopamine receptor ligand</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0031752</oboInOwl:id>
+        <rdfs:label>D5 dopamine receptor binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A cell extension caused by localized decoupling of the cytoskeleton from the plasma membrane and characterized by rapid formation, rounded shape, and scarcity of organelles within the protrusion. Blebs are formed during apoptosis and other cellular processes, including cell locomotion, cell division, and as a result of physical or chemical stresses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Bleb_(cell_biology)</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>plasma membrane bleb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0032059</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:label>bleb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0035196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Cleavage of stem-loop RNA precursors into microRNAs (miRNAs), a class of small RNAs that primarily silence genes by blocking the translation of mRNA transcripts into protein, or by increasing the degradation of non-protein-coding RNA transcripts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0030918</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>microRNA processing</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>gene silencing by miRNA, production of miRNAs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>miRNA processing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>miRNA-mediated gene silencing, production of miRNAs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>microRNA-mediated gene silencing, production of microRNAs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>production of microRNAs involved in gene silencing by microRNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>miRNA biogenesis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>microRNA biogenesis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>microRNA biosynthesis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>microRNA biosynthetic process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>microRNA metabolic process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>microRNA metabolism</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0035196</oboInOwl:id>
+        <rdfs:label>production of miRNAs involved in gene silencing by miRNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0036166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0036166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A reversible switch of a cell from one cell type or form to another, at a frequency above the expected frequency for somatic mutations. Phenotypic switching involves changes in cell morphology and altered gene expression patterns. For example, Candida albicans switches from white cells to opaque cells for sexual mating. Phenotypic switching also occurs in multicellular organisms; smooth muscle cells (SMCs) exhibit phenotypic transitions to allow rapid adaption to fluctuating environmental cues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>bf</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-03-27T01:31:28Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>phenotypic dimorphism</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0036166</oboInOwl:id>
+        <rdfs:comment>Mating type switching is not considered a type of phenotypic switching: for mating type switching, consider instead annotating to &apos;mating type switching ; GO:0007533&apos;.</rdfs:comment>
+        <rdfs:label>phenotypic switching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0040029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0040029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of gene expression; the process is mitotically or meiotically heritable, or is stably self-propagated in the cytoplasm of a resting cell, and does not entail a change in DNA sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0040029</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>regulation of gene expression, epigenetic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_1901222"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the establishment or extent of a membrane potential, the electric potential existing across any membrane arising from charges in the membrane itself and from the charges present in the media on either side of the membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0042391</oboInOwl:id>
+        <rdfs:label>regulation of membrane potential</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042493">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a drug stimulus. A drug is a substance used in the diagnosis, treatment or prevention of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0017035</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>drug resistance</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>drug susceptibility/resistance</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0042493</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <rdfs:label>response to drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A process in which planktonically growing microorganisms grow at a liquid-air interface or on a solid substrate under the flow of a liquid and produce extracellular polymers that facilitate matrix formation, resulting in a change in the organisms&apos; growth rate and gene transcription.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/17727</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0042710</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:label>biofilm formation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042991">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006606"/>
+        <obo:IAO_0000115>OBSOLETE. The directed movement of a transcription factor from the cytoplasm to the nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:consider>GO:0006606</oboInOwl:consider>
+        <oboInOwl:hasExactSynonym>transcription factor import into cell nucleus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>transcription factor transport from cytoplasm to nucleus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>transcription factor-nucleus import</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0042991</oboInOwl:id>
+        <rdfs:comment>The reason for obsoletion is that there is no distinct pathway to import transcription factors into the nucleus.</rdfs:comment>
+        <rdfs:label>obsolete transcription factor import into nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A prolongation or process extending from a nerve cell, e.g. an axon or dendrite.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao867568886</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neuron process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neuron protrusion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neuronal cell projection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>neurite</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>nerve fiber</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0043005</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:label>neuron projection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that stops or reduces the activity of an enzyme.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0048553</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>down regulation of enzyme activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>down-regulation of enzyme activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>down-regulation of metalloenzyme activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>downregulation of enzyme activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation of enzyme activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>down regulation of metalloenzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>downregulation of metalloenzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>inhibition of enzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>inhibition of metalloenzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>negative regulation of metalloenzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0043086</oboInOwl:id>
+        <rdfs:label>negative regulation of catalytic activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043484">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of RNA splicing, the process of removing sections of the primary RNA transcript to remove sequences not present in the mature form of the RNA and joining the remaining sections to form the mature form of the RNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0043484</oboInOwl:id>
+        <rdfs:label>regulation of RNA splicing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A series of reactions, mediated by the intracellular serine/threonine kinase protein kinase B (also called AKT), which occurs as a result of a single trigger reaction or compound.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>AKT signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AKT signaling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AKT signalling cascade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PKB signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PKB signaling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein kinase B signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>AKT signaling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>PKB signaling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>PKB signalling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>protein kinase B signaling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>protein kinase B signalling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0043491</oboInOwl:id>
+        <rdfs:label>protein kinase B signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-02-05T10:37:16Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>FBbt:00005107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:67301</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Cell_body</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cell soma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0044297</oboInOwl:id>
+        <rdfs:comment>Note that &apos;cell body&apos; and &apos;cell soma&apos; are not used in the literature for cells that lack projections, nor for some cells (e.g. yeast with mating projections) that do have projections.</rdfs:comment>
+        <rdfs:label>cell body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>Any of the smaller branches of an axon that emanate from the main axon cylinder.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-02-05T11:29:04Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1470140754</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0044303</oboInOwl:id>
+        <rdfs:label>axon collateral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>A dendrite arising from another dendrite.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-02-05T04:18:53Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao884265541</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>dendrite branch</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>secondary dendrite</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0044307</oboInOwl:id>
+        <rdfs:label>dendritic branch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_0006355"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045837">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042391"/>
+        <obo:IAO_0000115>Any process that stops, prevents, or reduces the frequency, rate or extent of establishment or extent of a membrane potential, the electric potential existing across any membrane arising from charges in the membrane itself and from the charges present in the media on either side of the membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>down regulation of membrane potential</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>down-regulation of membrane potential</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>downregulation of membrane potential</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>reduction of membrane potential</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>inhibition of membrane potential</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0045837</oboInOwl:id>
+        <rdfs:label>negative regulation of membrane potential</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045838">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042391"/>
+        <obo:IAO_0000115>Any process that activates or increases the frequency, rate or extent of establishment or extent of a membrane potential, the electric potential existing across any membrane arising from charges in the membrane itself and from the charges present in the media on either side of the membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>elevation of membrane potential</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>up regulation of membrane potential</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>up-regulation of membrane potential</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>upregulation of membrane potential</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>activation of membrane potential</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>stimulation of membrane potential</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0045838</oboInOwl:id>
+        <rdfs:label>positive regulation of membrane potential</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process that occurs after viral attachment by which a virus, or viral nucleic acid, breaches the plasma membrane or cell envelope and enters the host cell. The process ends when the viral nucleic acid is released into the host cell cytoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0019063</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>VZ:936</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>entry of virus into host cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>phage translocation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral penetration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virion penetration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virion penetration into host cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virus entry into host cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0046718</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <rdfs:comment>Viral attachment to the host cell is not part of viral entry in GO because virus attachment does not always lead to viral entry: attachment can also result in the virion being carried by the host cell to another location.</rdfs:comment>
+        <rdfs:label>viral entry into host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0048666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process whose specific outcome is the progression of a neuron over time, from initial commitment of the cell to a specific fate, to the fully functional differentiated cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0048666</oboInOwl:id>
+        <rdfs:label>neuron development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0048812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process in which the anatomical structures of a neuron projection are generated and organized. A neuron projection is any process extending from a neural cell, such as axons or dendrites.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasNarrowSynonym>neurite biosynthesis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>neurite formation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>neurite growth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>neurite morphogenesis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0048812</oboInOwl:id>
+        <rdfs:label>neuron projection morphogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the activity of an enzyme.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0048552</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>regulation of enzyme activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>regulation of metalloenzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0050790</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <rdfs:label>regulation of catalytic activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050821">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>positive regulation of protein stability</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein stabilisation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>lysosomal protein stabilization</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>protein sequestering</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>protein stabilization activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0050821</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <rdfs:label>protein stabilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of the activity of a transcription factor, any factor involved in the initiation or regulation of transcription.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:1904167</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:2000823</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>regulation of transcription factor activity</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>regulation of DNA binding transcription factor activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of sequence-specific DNA binding transcription factor activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>regulation of androgen receptor activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>regulation of thyroid hormone receptor activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051090</oboInOwl:id>
+        <rdfs:label>regulation of DNA-binding transcription factor activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022403"/>
+        <obo:IAO_0000115>The cell cycle &apos;gap&apos; phase which is the interval between the completion of DNA segregation (usually by mitosis or meiosis) and the beginning of DNA synthesis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:G1_phase</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051318</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>G1 phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022403"/>
+        <obo:IAO_0000115>The cell cycle &apos;gap&apos; phase which is the interval between the completion of DNA synthesis and the beginning of DNA segregation (usually by mitosis or meiosis).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:G2_phase</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051319</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>G2 phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022403"/>
+        <obo:IAO_0000115>The cell cycle phase, following G1, during which DNA synthesis takes place.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:S_phase</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>S-phase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051320</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>S phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007049"/>
+        <obo:IAO_0000115>Progression through the phases of the meiotic cell cycle, in which canonically a cell replicates to produce four offspring with half the chromosomal content of the progenitor cell via two nuclear divisions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0007126</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Meiosis</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>meiosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0051321</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <rdfs:comment>Note that this term should not be confused with &apos;GO:0140013 ; meiotic nuclear division&apos;. &apos;GO:0051321 ; meiotic cell cycle represents the entire mitotic cell cycle, while &apos;GO:0140013 meiotic nuclear division&apos; specifically represents the actual nuclear division step of the mitotic cell cycle.</rdfs:comment>
+        <rdfs:label>meiotic cell cycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000279"/>
+        <obo:IAO_0000115>A cell cycle phase during which nuclear division occurs, and which is comprises the phases: prophase, metaphase, anaphase and telophase and occurs as part of a meiotic cell cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>M phase of meiotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051327</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>meiotic M phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051318"/>
+        <obo:IAO_0000115>The cell cycle &apos;gap&apos; phase which is the interval between the completion of DNA segregation by meiosis and the beginning of DNA synthesis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>G1 phase of meiotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051330</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>meiotic G1 phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051319"/>
+        <obo:IAO_0000115>The cell cycle &apos;gap&apos; phase which is the interval between the completion of DNA synthesis and the beginning of DNA segregation by meiosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>G2 phase of meiotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051331</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>meiotic G2 phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051320"/>
+        <obo:IAO_0000115>The cell cycle phase, following G1, during which DNA synthesis takes place as part of a meiotic cell cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>S phase of meiotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>S-phase of meiotic cell cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051332</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <rdfs:comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is &apos;regulation of x/y phase transition&apos; or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</rdfs:comment>
+        <rdfs:label>meiotic S phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051438">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of ubiquitin transferase activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>regulation of ubiquitin transferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>APC regulator</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>SCF complex regulator</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>anaphase-promoting complex regulator</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>ubiquitin transferase regulator</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ubiquitin-protein transferase regulator</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0051438</oboInOwl:id>
+        <rdfs:label>regulation of ubiquitin-protein transferase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Catalysis of the reaction: C-terminal protein amino acid methyl ester + H2O = protein amino acid + methanol.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8856951</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>protein phosphatase methylesterase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051722</oboInOwl:id>
+        <rdfs:label>protein C-terminal methylesterase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051881">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042391"/>
+        <obo:IAO_0000115>Any process that modulates the establishment or extent of the mitochondrial membrane potential, the electric potential existing across the mitochondrial membrane arising from charges in the membrane itself and from the charges present in the media on either side of the membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051881</oboInOwl:id>
+        <rdfs:label>regulation of mitochondrial membrane potential</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the rate, frequency, or extent of the downregulation of gene expression through the action of microRNAs (miRNAs), endogenous 21-24 nucleotide small RNAs processed from stem-loop RNA precursors (pre-miRNAs). Once incorporated into a RNA-induced silencing complex (RISC), miRNAs can downregulate gene expression by either of two posttranscriptional mechanisms: RNA (often mRNA) cleavage or mRNA translational repression.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>dph</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-10-05T03:10:28Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>regulation of gene silencing by microRNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0060964</oboInOwl:id>
+        <rdfs:label>regulation of gene silencing by miRNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0061136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0061136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the rate, frequency, or extent of the chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds that is mediated by the proteasome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>dph</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-05-17T01:33:20Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0061136</oboInOwl:id>
+        <rdfs:label>regulation of proteasomal protein catabolic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0065009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0065009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of a molecular function, an elemental biological activity occurring at the molecular level, such as catalysis or binding.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>regulation of a molecular function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0065009</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <rdfs:label>regulation of molecular function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A type of cell death that is morphologically characterized by an increasingly translucent cytoplasm, swelling of organelles, minor ultrastructural modifications of the nucleus (specifically, dilatation of the nuclear membrane and condensation of chromatin into small, irregular, circumscribed patches) and increased cell volume (oncosis), culminating in the disruption of the plasma membrane and subsequent loss of intracellular contents. Necrotic cells do not fragment into discrete corpses as their apoptotic counterparts do. Moreover, their nuclei remain intact and can aggregate and accumulate in necrotic tissues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasBroadSynonym>necrosis</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>cellular necrosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0070265</oboInOwl:id>
+        <rdfs:comment>Note that the word necrosis has been widely used in earlier literature to describe forms of cell death which are now known by more precise terms, such as apoptosis. Necrosis can occur in a regulated fashion, involving a precise sequence of signals; in this case, consider annotating to GO:0097300 &apos;programmed necrotic cell death&apos; or to its more specific child GO:0070266 &apos;necroptotic process&apos;.</rdfs:comment>
+        <rdfs:label>necrotic cell death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A series of reactions, mediated by the intracellular serine/threonine kinase protein kinase C, which occurs as a result of a single trigger reaction or compound.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>PKC signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein kinase C signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>PKC signaling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>protein kinase C signaling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>protein kinase C signalling cascade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0070528</oboInOwl:id>
+        <rdfs:label>protein kinase C signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0071712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The chemical reactions and pathways resulting in the breakdown of misfolded proteins transported from the endoplasmic reticulum and targeted to cytoplasmic proteasomes for degradation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>mah</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-03-10T12:53:27Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>ER-associated misfolded protein breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ER-associated misfolded protein catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ER-associated misfolded protein degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>endoplasmic reticulum-associated misfolded protein catabolic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>endoplasmic reticulum-associated misfolded protein catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>proteasomal protein catabolism of misfolded ER proteins</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0071712</oboInOwl:id>
+        <rdfs:comment>See also the biological process terms &apos;unfolded protein response ; GO:0030968&apos; and &apos;retrograde protein transport, ER to cytosol ; GO:0030970&apos;.</rdfs:comment>
+        <rdfs:label>ER-associated misfolded protein catabolic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0071964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any cellular process that results in the specification or formation of a polarized intracellular organization or cell growth pattern that regulates the shape of a cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>mah</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-22T03:10:08Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0071964</oboInOwl:id>
+        <rdfs:label>establishment of cell polarity regulating cell shape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_1901589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1901589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115>An arrangement of closely apposed microtubules running parallel to each other in the axon hillock and initial segment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>pr</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-11-07T15:37:12Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao707332678</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>axon microtubule fascicle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>microtubule bundle of axon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>microtubule fascicle of axon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:1901589</oboInOwl:id>
+        <rdfs:label>axon microtubule bundle</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
